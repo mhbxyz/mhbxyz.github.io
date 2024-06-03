@@ -6,22 +6,22 @@
           <ul>
             <!-- left header -->
             <li class="li_left">
-              <!-- open collection tree -->
-              {% if page.collection_list != false %}
-              <a class="header_btn" onclick="open_collection_list()">
-                <i class="fa btn_icon fa-bars">
-                  {% if page.btn_text != false %}
-                  <p class="btn_text">Archives</p>
-                  {% endif %}
-                </i>
-              </a>
-              {% endif %}
               <!-- home -->
               {% if page.home_btn != false %}
               <a class="header_btn" href="{{ site.url }}{{ site.baseurl }}">
                 <i class="fa btn_icon fa-home">
                   {% if page.btn_text != false %}
                   <p class="btn_text">Home</p>
+                  {% endif %}
+                </i>
+              </a>
+              {% endif %}
+              <!-- open collection tree -->
+              {% if page.collection_list != false %}
+              <a class="header_btn" onclick="open_collection_list()">
+                <i class="fa btn_icon fa-bars">
+                  {% if page.btn_text != false %}
+                  <p class="btn_text">Blog</p>
                   {% endif %}
                 </i>
               </a>
@@ -81,15 +81,8 @@
                 </i>
               </a>
               {% else %}
-              <a class="site_title" href="{{site.url}}{{site.baseurl}}"
-                >{{ site.title }}</a
-              >
-              {% if site.owner != false%}
-              <a class="site_owner"> - </a>
-              <a class="site_owner" href="https://github.com/{{site.github}}">
-                {{ site.owner }}</a
-              >
-              {% endif %} {% endif %}
+              <a class="site_title" href="{{site.url}}{{site.baseurl}}"><b>{{ site.title }}</b></a>
+              {% endif %}
             </span>
           </ul>
         </nav>

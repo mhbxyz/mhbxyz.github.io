@@ -119,20 +119,6 @@ bundler install jekyll
 gem install jekyll-sitemap jekyll-feed jekyll-seo-tag jekyll-mermaid
 ```
 
-### Installation
-
-1. Fork this project on [github](https://github.com/akiritsu/pRoJEct-VeXEd), change project settings, and clone your own repository into your local disk.
-
-```bash
-git clone https://github.com/{{YOUR_USERNAME}}/{{YOUR_REPOSITORY}}.git
-```
-
-2. Change directory.
-
-```bash
-cd {{YOUR_REPOSITORY_DIR}}
-```
-
 ### Personalize and Customize
 
 #### _config.yml
@@ -163,7 +149,7 @@ collections:
     sort_by         : date
 ```
 
-All your articles would be shown by clicking **Archive** button in the header of your website.
+All your articles would be shown by clicking **Blog** button in the header of your website.
 
 #### Writing
 
@@ -213,18 +199,6 @@ abstract: "This is abstract. Abstract is blank by default." # string
 2. Code review mode.
 3. Slide mode.
 4. Rapid cheatsheet access.
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 <!-- LICENSE -->
 ## License

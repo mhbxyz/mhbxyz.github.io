@@ -45,11 +45,11 @@
       </a>
       {% endif %}
       <!-- website -->
-      {% if site.website %}
-      <a class="footer_btn" href="{{ site.website }}">
-        <i class="fa fa-link">
+      {% if site.company %}
+      <a class="footer_btn" href="{{ site.company }}">
+        <i class="fa fa-briefcase">
           {% if page.btn_text != false %}
-          <p>Website</p>
+          <p>Company</p>
           {% endif %}
         </i>
       </a>
@@ -123,10 +123,12 @@
     </ul>
     <!-- copyright -->
     <ul class="footer_copyright">
-      <li class="copyright">© 2015 - 2020</li>
-      {% if site.statement %}
-      <li>{{ site.statement }}</li>
-      {% endif %}
+      <li class="copyright">
+        © 2024 - 2025 | 
+        {% if site.statement %}
+        {{ site.statement }}
+        {% endif %}
+      </li>
     </ul>
   </nav>
 </div>
