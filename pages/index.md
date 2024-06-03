@@ -24,6 +24,8 @@ permalink: /
 
 <br>
 
+<img src="src/assets/img/homepage.png" style="background-color: transparent; float:left;" alt="Death To The World" width=75>
+
 Manoah Bernier is an IT industry veteran with experience in various fields such as real estate, energy, media, and telecommunications. From a young age, he has been captivated by the world of technology. His journey into software development began at 14, driven by a dream to create video games. This passion led him to learn Python, a language that has since become a cornerstone of his career.
 
 In my professional journey, I have developed mobile applications and web applications. I have been responsible for building backend functionalities for real estate management platforms, developing energy monitoring algorithms through smart devices, creating APIs to remotely configure and control communication traffic, and promoting DevOps practices within teams. This breadth of experience has equipped me to handle complex data management and microservices architecture.
