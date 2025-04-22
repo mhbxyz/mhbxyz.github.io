@@ -8,12 +8,12 @@ math: true
 ---
 
 ## 🎯 Thesis Statement
-Denying the existence of necessary truths — such as \\(2 + 2 = 4\\) — undermines any claim to objective knowledge or meaningful discourse. Through a close analysis of Aaron Ra’s comments during a public debate, this essay exposes the internal incoherence of relativistic rhetoric and affirms the centrality of the law of non‑contradiction and necessary truths to any consistent worldview.
+Denying the existence of necessary truths — such as \\(2 + 2 = 4\\) — undermines any claim to objective knowledge or meaningful discourse. Through a close analysis of Aron Ra’s comments during a public debate, this essay exposes the internal incoherence of relativistic rhetoric and affirms the centrality of the law of non‑contradiction and necessary truths to any consistent worldview.
 
 ---
 
 ## I. Introduction
-In a widely viewed debate on the rationality of atheism, Aaron Ra asserts provocatively:  
+In a widely viewed debate on the existence of God, Aron Ra, the famous atheist activist, asserts provocatively:  
 > “Two plus two can equal five depending on higher values of five.”  
 Later, he doubles down: “I cannot point to even one thing being necessarily true.” ([Source: *Is There a God? | Aron Ra Vs Jake Brancatella MuslimMetaphysician*, Modern-Day Debate on YouTube, 1:29:35](https://youtu.be/SNVSaaDd8vc?t=5375)) Such claims strike at the heart of reason itself. If nothing is necessarily true, how can one meaningfully call anything absurd? Jake Brancatella’s retort — questioning how the Jonah story could be called “absurd” without appealing to any necessary standard — reveals the self‑refuting nature of denying necessity. This essay will show that repudiating necessary truth leads inevitably to incoherence.
 
@@ -32,8 +32,8 @@ These principles are not mere conventions; they undergird coherent discourse, sc
 
 ---
 
-## III. Aaron Ra’s Statements: A Breakdown
-Aaron Ra’s two central assertions are:
+## III. Aron Ra’s Statements: A Breakdown
+Aron Ra’s two central assertions are:
 
 1. “Two plus two can equal five depending on higher values of five.”
 2. “I cannot point to even one thing being necessarily true.”
@@ -70,4 +70,4 @@ To abandon necessary truths is to relinquish the very tools by which we think, s
 ---
 
 ## VII. Conclusion
-Aaron Ra’s pronouncements on arithmetic and necessity collapse under their own weight. By denying necessary truths, he sows the seeds of incoherence and self‑refutation. Objective truth — embodied in the law of non‑contradiction and necessary propositions — remains essential for any consistent worldview. We must defend these principles, not as unthinking dogma, but as the inescapable groundwork of reason and integrity.
+Aron Ra’s pronouncements on arithmetic and necessity collapse under their own weight. By denying necessary truths, he sows the seeds of incoherence and self‑refutation. Objective truth — embodied in the law of non‑contradiction and necessary propositions — remains essential for any consistent worldview. We must defend these principles, not as unthinking dogma, but as the inescapable groundwork of reason and integrity.
