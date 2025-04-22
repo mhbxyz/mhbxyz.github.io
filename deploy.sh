@@ -1,18 +1,39 @@
 #!/bin/bash
 
-# Exit on error
-set -e
+# Exit immediately if a command exits with a non-zero status
+set -euo pipefail
+IFS=$'\n\t'
 
-# Build the project
+# Constants
+REPO_URL="git@github.com:mhbxyz/mhbxyz.github.io.git"
+DEPLOY_DIR="public"
+BRANCH="main"
+COMMIT_MESSAGE="Deploy website"
+
+# Build the project using Hugo
+echo "Building the Hugo site..."
 hugo
 
-# Go to public folder
-cd public
+# Navigate to the deployment directory
+cd "$DEPLOY_DIR"
 
-# Add, commit, push
+# Initialize a new Git repository
+echo "Initializing Git repository in $DEPLOY_DIR..."
+git init
+git remote add origin "$REPO_URL"
+git checkout -b "$BRANCH"
+
+# Add, commit, and push changes to the remote repository
+echo "Deploying to $REPO_URL..."
 git add --all
-git commit -m "Deploy website"
-git push -f origin main
+git commit -m "$COMMIT_MESSAGE"
+git push -f origin "$BRANCH"
 
-# Return to root
+# Return to the root directory
 cd ..
+
+# Clean up the deployment directory
+echo "Cleaning up..."
+rm -rf "$DEPLOY_DIR"
+
+echo "Deployment complete."
