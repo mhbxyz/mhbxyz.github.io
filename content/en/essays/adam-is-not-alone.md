@@ -2,7 +2,7 @@
 title: "Adam Is Not Alone: A Theological Inquiry into Human Plurality and Fall Of Its Original Nature"
 date: 2025-04-11
 tags: ["Christianity", "Orthodoxy"]
-author: "Manoah BERNIER"
+author: "Manoah B."
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 title: "La rigueur élégante : hommage à Dijkstra et à l’art de la simplicité logique"
 date: 2025-04-22
 tags: ["Informatique", "Philosophie"]
-author: "Manoah BERNIER"
+author: "Manoah B."
 draft: false
 ---
 

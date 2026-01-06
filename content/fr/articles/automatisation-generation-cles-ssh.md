@@ -2,7 +2,7 @@
 title: "Automatisation de la génération de clés SSH avec ssh-keybuild"
 date: 2025-04-19
 tags: ["automation", "shell", "ssh"]
-author: "Manoah BERNIER"
+author: "Manoah B."
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 title: "Genesis, Creation and Orthodoxy: Beyond Literalism Toward a Living Reading"
 date: 2025-04-12
 tags: ["Christianity", "Orthodoxy"]
-author: "Manoah BERNIER"
+author: "Manoah B."
 draft: false
 ---
 

@@ -2,7 +2,7 @@
 title: "The Transcendental Argument for Christianity: Rational Grounding of an Absolute Truth"
 date: 2025-04-05
 tags: ["Christianity", "Philosophy"]
-author: "Manoah BERNIER"
+author: "Manoah B."
 draft: false
 math: true
 ---
@@ -160,4 +160,4 @@ Even if the transcendental argument is admitted, why favor the Christian God?
 
 The transcendental argument does not aim to prove God like testing a hypothesis; it reveals Him as a **logical necessity**, the **condition of possibility** for all authentic thought and morality. Contemporary objections fail either through internal inconsistency or through the inability to morally ground human existence. **The Christian God** thus appears not as one belief among others, but as the **invisible keystone** without which our reason, our science, and our moral life lose all grounding.
 
-> "In Him we live and move and have our being." (Acts 17:28)  
+> "In Him we live and move and have our being." (Acts 17:28)

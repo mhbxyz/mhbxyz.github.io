@@ -2,7 +2,7 @@
 title: "L’argument transcendantal en faveur du Christianisme : fondement rationnel d’une vérité absolue"
 date: 2025-04-05
 tags: ["Christianisme", "Philosophie"]
-author: "Manoah BERNIER"
+author: "Manoah B."
 draft: false
 math: true
 ---
@@ -161,4 +161,4 @@ Même en admettant l’argument transcendantal, pourquoi privilégier le Dieu ch
 
 L’argument transcendantal ne cherche pas à prouver Dieu comme on teste une hypothèse ; il le révèle comme **nécessité logique**, **condition de possibilité** de toute pensée et de toute morale authentique. Les objections contemporaines échouent soit par incohérence interne, soit par incapacité à fonder moralement l’existence humaine. **Le Dieu chrétien** se présente ainsi non comme une croyance de plus, mais comme la **clef de voûte invisible** sans laquelle notre raison, notre science et notre vie morale perdent toute assise.
 
-> « En lui, nous avons la vie, le mouvement et l’être. » (Actes 17:28)  
+> « En lui, nous avons la vie, le mouvement et l’être. » (Actes 17:28)
