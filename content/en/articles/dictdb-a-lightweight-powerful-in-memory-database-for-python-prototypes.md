@@ -1,7 +1,7 @@
 ---
-title: "DictDB: A Lightweight, Powerful In‑Memory Database for Python Prototypes"
+title: "DictDB: A Lightweight In-Memory Database for Python"
 date: 2025-04-19
-tags: ["Python", "In‑Memory Database", "Prototyping", "Developer Tools"]
+tags: ["Python", "In-Memory Database", "Prototyping", "Developer Tools"]
 author: "Manoah B."
 draft: false
 ---
@@ -9,110 +9,67 @@ draft: false
 ![DictDB Logo](https://raw.githubusercontent.com/mhbxyz/dictdb/main/docs/DictDBLogo.png)
 
 ## Why DictDB?
-When you’re building a prototype, writing unit tests, or validating business logic, you need a data store that’s as nimble as your code. SQLite can feel heavy and verbose; plain Python dictionaries lack structure, schema, and powerful querying. **DictDB** bridges that gap: a 100% in‑memory, dictionary‑backed database with SQL‑inspired syntax, schema enforcement, indexing, transactions, and optional persistence — all without installing or configuring a separate server.
 
-## 🚀 Key Benefits
+When prototyping or writing tests, you need a data store as agile as your code. SQLite feels heavy; plain dictionaries lack structure and querying power. **DictDB** bridges that gap: an in-memory, dictionary-backed database with SQL-like CRUD, optional schemas, indexing, and persistence — no server required.
 
-- **Zero Configuration**: Import and use. No server, no files (unless you choose to persist).
-- **Familiar API**: SQL‑style CRUD via a fluent, Pythonic DSL (`table.select(...)`, `table.insert(...)`).
-- **Schema Enforcement**: Define types and constraints to catch errors early.
-- **High Performance**: Automatic hash and sorted indexes speed up lookups.
-- **Atomic Transactions**: Batch updates roll back on failure, preserving data integrity.
-- **Lightweight Persistence**: JSON or pickle dumps (sync/async) to save and restore state.
-- **Rich Logging**: Integrated with Loguru for debug, audit, and trace capabilities.
+## Features
 
-## 🔧 Installation
+- **Zero Configuration**: Import and use. No server, no setup.
+- **Query DSL**: Fluent interface with Python operators (`table.age >= 18`).
+- **Indexing**: Hash indexes for O(1) lookups, sorted indexes for range queries.
+- **Optional Schemas**: Type validation when you need it.
+- **Persistence**: Save/load via JSON or Pickle (sync and async).
+- **Automatic Backups**: Periodic and incremental backup support.
+- **Thread Safety**: Reader-writer locks for concurrent access.
+- **Minimal Dependencies**: Only `sortedcontainers` required.
+
+## Installation
 
 ```bash
-# From source (dev version)
-git clone https://github.com/mhbxyz/dictdb.git
-cd dictdb
-pip install .
-
-# Future PyPI release
-pip install dictdb
+pip install dctdb
 ```
 
-## 🎯 Core Concepts
+> Note: The PyPI package is `dctdb`, but the import is `dictdb`.
 
-| Component        | Responsibility                                    |
-|------------------|----------------------------------------------------|
-| **DictDB**       | Manages multiple in‑memory tables                 |
-| **Table**        | Holds records, schema, indexes, and CRUD logic    |
-| **Field & Query**| Build SQL‑like conditions with Python operators    |
-| **Index**        | HashIndex & SortedIndex for fast equality/range   |
-| **BackupManager**| Automated periodic or on‑demand persistence       |
+**Requirements**: Python 3.13+
 
-## 💡 Quickstart Example
+## Quick Example
 
 ```python
-from dictdb import DictDB, Query, configure_logging
+from dictdb import DictDB, Condition
 
-# Enable debug logging to console
-configure_logging(level="DEBUG", console=True)
-
-# 1️⃣ Create database and table
 db = DictDB()
-db.create_table("employees", primary_key="emp_id")
-employees = db.get_table("employees")
+db.create_table("users", primary_key="id")
+users = db.get_table("users")
 
-# 2️⃣ Insert records (auto‑assigns emp_id if missing)
-employees.insert({"emp_id": 101, "name": "Alice", "dept": "IT"})
-employees.insert({"emp_id": 102, "name": "Bob",   "dept": "HR"})
-employees.insert({           "name": "Charlie", "dept": "IT"})  # emp_id=103
+# Insert
+users.insert({"name": "Alice", "age": 30, "role": "admin"})
+users.insert({"name": "Bob", "age": 25, "role": "user"})
 
-# 3️⃣ Query with filters and projections
-it_staff = employees.select(
-    columns=["emp_id","name"],
-    where=Query(employees.dept == "IT")
-)
-print(it_staff)
+# Select with conditions
+admins = users.select(where=Condition(users.role == "admin"))
 
-# 4️⃣ Update and delete
-employees.update(
-    {"dept": "Engineering"},
-    where=Query(employees.name == "Alice")
-)
-employees.delete(where=Query(employees.name == "Bob"))
+# Update
+users.update({"age": 31}, where=Condition(users.name == "Alice"))
 
-# 5️⃣ Persist to JSON
-from pathlib import Path
-backup = Path("./backup.json")
-db.save(backup, file_format="json")
+# Delete
+users.delete(where=Condition(users.name == "Bob"))
 
-# 6️⃣ Load later
-restored = DictDB.load(backup, file_format="json")
-```  
+# Persist
+db.save("data.json", file_format="json")
+```
 
-## ⚖️ Feature Comparison
+## Feature Comparison
 
-| Solution             | Lightweight | Schema | Complex Queries | Persistence |
-|----------------------|:-----------:|:------:|:---------------:|:-----------:|
-| Native `dict`        | ✔️          | ❌     | ❌              | ❌          |
-| TinyDB               | ✔️          | Partial| Partial         | ✔️          |
-| SQLite               | ❌          | ✔️     | ✔️              | ✔️          |
-| **DictDB**           | ✔️          | ✔️     | ✔️              | ✔️          |
+| Solution       | Lightweight | Schema | Complex Queries | Persistence |
+|----------------|:-----------:|:------:|:---------------:|:-----------:|
+| Native `dict`  | Yes         | No     | No              | No          |
+| TinyDB         | Yes         | Partial| Partial         | Yes         |
+| SQLite         | No          | Yes    | Yes             | Yes         |
+| **DictDB**     | Yes         | Yes    | Yes             | Yes         |
 
-## 🏗️ Under the Hood
+## Resources
 
-1. **Records & Schema**: Tables store Python dicts; optional schema enforces field types and presence.  
-2. **Indexes**: Create hash or sorted indexes. Simple equality queries use O(1) lookups; range scans use bisect.  
-3. **Conditions & Query**: Overloaded operators (`==, !=, <, >, &, |, ~`) generate a composable AST of predicates.  
-4. **Transactions**: Updates collect backups, validate new state; rollback on any error (schema or otherwise).  
-5. **Persistence**: `save`/`load` support JSON (human‑readable) and pickle (fast, Python‑native), sync or async.  
-6. **BackupManager**: In threaded background or on‑demand, writes timestamped snapshots.
-
-## 🚧 Roadmap
-
-1. **JOINs & Subqueries**: Cross‑table queries with SQL‑style syntax.  
-2. **Aggregate Functions**: `COUNT`, `SUM`, `AVG` on query results.  
-3. **Advanced SQL Parser**: Parse SQL strings to DSL calls.  
-4. **Concurrency Control**: Locks, MVCC for thread/process safety.  
-5. **CLI & GUI**: Interactive shell and web dashboard for ad-hoc data exploration.
-
-## 🤝 Contributing
-
-DictDB is MIT‑licensed and open source. Your feedback, bug reports, and pull requests are welcome!  
-
-- **GitHub**: https://github.com/mhbxyz/dictdb  
-- **Issues**: https://github.com/mhbxyz/dictdb/issues
+- **Documentation**: https://mhbxyz.github.io/dictdb/
+- **GitHub**: https://github.com/mhbxyz/dictdb
+- **License**: Apache License 2.0
