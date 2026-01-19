@@ -4,6 +4,7 @@ date: 2025-04-19
 tags: ["automation", "shell", "ssh"]
 author: "Manoah B."
 draft: false
+description: "Un script shell pour générer des clés SSH, les ajouter à l'agent, copier dans le presse-papier et mettre à jour ~/.ssh/config."
 ---
 
 ## Introduction

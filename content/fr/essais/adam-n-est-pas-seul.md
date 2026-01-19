@@ -4,6 +4,7 @@ date: 2025-04-11
 tags: ["Christianisme", "Orthodoxie"]
 author: "Manoah B."
 draft: false
+description: "Une lecture théologique orthodoxe d'Adam comme prototype ontologique de l'humanité."
 ---
 
 ## Introduction

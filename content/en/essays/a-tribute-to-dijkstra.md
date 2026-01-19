@@ -4,6 +4,7 @@ date: 2025-04-22
 tags: ["Computer Science", "Philosophy"]
 author: "Manoah B."
 draft: false
+description: "Exploring Dijkstra's philosophy of computer science, where rigor and simplicity form a path to intellectual clarity."
 ---
 
 ### Introduction

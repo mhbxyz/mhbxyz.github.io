@@ -1,10 +1,11 @@
 ---
-title: "“2 + 2 = 5”? – The Collapse of Rationality Through the Denial of Necessary Truths"
+title: ""2 + 2 = 5"? – The Collapse of Rationality Through the Denial of Necessary Truths"
 date: 2025-04-19
 tags: ["Christianity", "Philosophy"]
 author: "Manoah B."
 draft: false
 math: true
+description: "Exposing the self-refuting nature of denying necessary truths through an analysis of relativistic rhetoric and the law of non-contradiction."
 ---
 
 ## 🎯 Thesis Statement

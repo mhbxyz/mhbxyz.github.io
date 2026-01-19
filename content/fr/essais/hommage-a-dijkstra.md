@@ -4,6 +4,7 @@ date: 2025-04-22
 tags: ["Informatique", "Philosophie"]
 author: "Manoah B."
 draft: false
+description: "La philosophie de Dijkstra en informatique, où rigueur et simplicité forment un chemin vers la clarté intellectuelle."
 ---
 
 ### Introduction

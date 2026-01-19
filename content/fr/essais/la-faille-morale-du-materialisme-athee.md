@@ -4,6 +4,7 @@ date: 2025-04-04
 tags: ["Philosophie", "Éthique"]
 author: "Manoah B."
 draft: false
+description: "Le matérialisme athée peut-il fonder des normes morales objectives face au problème être-devoir de Hume ?"
 ---
 
 ## Introduction

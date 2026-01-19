@@ -4,6 +4,7 @@ date: 2025-04-19
 tags: ["Python", "Base de Données en Mémoire", "Prototypage", "Outils Développeur"]
 author: "Manoah B."
 draft: false
+description: "Une base de données en mémoire pour Python avec CRUD façon SQL, schémas optionnels, indexation et persistance."
 ---
 
 ![Logo DictDB](https://raw.githubusercontent.com/mhbxyz/dictdb/main/docs/DictDBLogo.png)

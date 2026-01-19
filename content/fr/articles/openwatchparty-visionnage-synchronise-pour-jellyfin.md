@@ -5,6 +5,7 @@ tags: ["Jellyfin", "Rust", "Plugin", "Self-Hosted", "Serveur Multimédia"]
 author: "Manoah B."
 draft: false
 mermaid: true
+description: "Un plugin Jellyfin pour la lecture synchronisée. Regardez des films avec vos amis à distance via un serveur de session Rust."
 ---
 
 ## Qu'est-ce qu'OpenWatchParty ?

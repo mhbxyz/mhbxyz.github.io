@@ -1,0 +1,16 @@
+{{- define "main" }}
+<article class="post-single">
+  <header class="post-header">
+    <h1 class="post-title">404</h1>
+  </header>
+  <div class="post-content">
+    {{ if eq .Site.Language.Lang "fr" }}
+    <p>Cette page n'existe pas ou a été déplacée.</p>
+    <p><a href="{{ "/" | relLangURL }}">Retour à l'accueil</a></p>
+    {{ else }}
+    <p>This page doesn't exist or has been moved.</p>
+    <p><a href="{{ "/" | relLangURL }}">Back to home</a></p>
+    {{ end }}
+  </div>
+</article>
+{{- end }}

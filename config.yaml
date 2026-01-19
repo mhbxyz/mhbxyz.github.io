@@ -8,6 +8,26 @@ math: true
 
 params:
   math: true
+  comments: true
+
+  # Giscus comments (https://giscus.app)
+  giscus:
+    enable: true
+    repo: "mhbxyz/mhbxyz.github.io"
+    repoId: ""  # TODO: Get from https://giscus.app
+    category: "Comments"
+    categoryId: ""  # TODO: Get from https://giscus.app
+    mapping: "pathname"
+    theme: "preferred_color_scheme"
+
+  # Social links
+  socialIcons:
+    - name: github
+      url: "https://github.com/mhbxyz"
+    - name: email
+      url: "mailto:manoah.bernier@gmail.com"
+    - name: rss
+      url: "/index.xml"
 
 languages:
   fr:

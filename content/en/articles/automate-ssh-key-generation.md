@@ -4,6 +4,7 @@ date: 2025-04-19
 tags: ["automatisation", "shell", "ssh"]
 author: "Manoah B."
 draft: false
+description: "A shell script to generate SSH keys, add them to your agent, copy to clipboard, and update ~/.ssh/config automatically."
 ---
 
 ## Introduction

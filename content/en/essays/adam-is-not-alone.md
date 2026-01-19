@@ -4,6 +4,7 @@ date: 2025-04-11
 tags: ["Christianity", "Orthodoxy"]
 author: "Manoah B."
 draft: false
+description: "An Orthodox theological reading of Adam as the ontological prototype of humanity, addressing the question of human plurality in Genesis."
 ---
 
 ## Introduction

@@ -5,6 +5,7 @@ tags: ["Christianisme", "Philosophie"]
 author: "Manoah B."
 draft: false
 math: true
+description: "Le Dieu chrétien comme condition nécessaire de la rationalité, de la connaissance et de la morale à travers le raisonnement transcendantal."
 ---
 
 ## Introduction

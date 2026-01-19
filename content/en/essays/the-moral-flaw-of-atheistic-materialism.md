@@ -1,9 +1,10 @@
 ---
-title: "From What Is to What Ought to Be: The Moral Flaw of Atheistic Materialism Faced with Hume’s Guillotine"
+title: "From What Is to What Ought to Be: The Moral Flaw of Atheistic Materialism Faced with Hume's Guillotine"
 date: 2025-04-04
 tags: ["Philosophy", "Ethics"]
 author: "Manoah B."
 draft: false
+description: "Examining whether atheistic materialism can justify objective moral norms in light of Hume's is-ought problem."
 ---
 
 ## Introduction

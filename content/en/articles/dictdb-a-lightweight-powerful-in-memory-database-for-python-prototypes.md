@@ -4,6 +4,7 @@ date: 2025-04-19
 tags: ["Python", "In-Memory Database", "Prototyping", "Developer Tools"]
 author: "Manoah B."
 draft: false
+description: "An in-memory database for Python with SQL-like CRUD, optional schemas, indexing, and persistence. Perfect for prototyping."
 ---
 
 ![DictDB Logo](https://raw.githubusercontent.com/mhbxyz/dictdb/main/docs/DictDBLogo.png)

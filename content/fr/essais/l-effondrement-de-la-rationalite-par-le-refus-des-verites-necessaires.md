@@ -1,10 +1,11 @@
 ---
-title: "« 2 + 2 = 5 » ? – L’effondrement de la rationalité par le refus des vérités nécessaires"
+title: "« 2 + 2 = 5 » ? – L'effondrement de la rationalité par le refus des vérités nécessaires"
 date: 2025-04-19
 tags: ["Christianisme", "Philosophie"]
 author: "Manoah B."
 draft: false
 math: true
+description: "Analyse de l'incohérence de la rhétorique relativiste et du caractère auto-réfutant du refus des vérités nécessaires."
 ---
 
 ## 🎯 Thèse

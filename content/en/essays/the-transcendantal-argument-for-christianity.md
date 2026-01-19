@@ -5,6 +5,7 @@ tags: ["Christianity", "Philosophy"]
 author: "Manoah B."
 draft: false
 math: true
+description: "Exploring the Christian God as the necessary foundation for rationality, knowledge, and morality through transcendental reasoning."
 ---
 
 ## Introduction
