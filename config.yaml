@@ -35,7 +35,7 @@ languages:
     languageName: "Français"
     weight: 1
     contentDir: "content/fr"
-    title: "[ mhbxyz / fr ]"
+    title: "mhbxyz.me"
     menu:
       main:
         - name: "Accueil"
@@ -54,10 +54,10 @@ languages:
       math: true
       profileMode:
         enabled: true
-        title: "L'Ultime Rébellion"
-        subtitle: '"Celui qui est mort au monde n’est plus troublé par ses malheurs."'
+        title: "Bienvenue sur le blog de mhbxyz"
+        subtitle: '"Un jour, la Beauté sauvera le Monde"'
         imageUrl: "https://avatars.githubusercontent.com/u/43188009?v=4"
-        imageTitle: "Death To The World!"
+        imageTitle: "Mort au Monde !"
         imageWidth: 256
         imageHeight: 256
 
@@ -65,7 +65,7 @@ languages:
     languageName: "English"
     weight: 2
     contentDir: "content/en"
-    title: "[ mhbxyz / en ]"
+    title: "mhbxyz.me"
     menu:
       main:
         - name: "Home"
@@ -84,8 +84,8 @@ languages:
       math: true
       profileMode:
         enabled: true
-        title: "The Last Rebellion"
-        subtitle: '"He who is dead to the world is no longer disturbed by its woes."'
+        title: "Welcome to mhbxyz's Blog"
+        subtitle: '"One day, Beauty will save the World"'
         imageUrl: "https://avatars.githubusercontent.com/u/43188009?v=4"
         imageTitle: "Death To The World!"
         imageWidth: 256
