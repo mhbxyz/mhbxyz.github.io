@@ -14,11 +14,12 @@ params:
   giscus:
     enable: true
     repo: "mhbxyz/mhbxyz.github.io"
-    repoId: ""  # TODO: Get from https://giscus.app
+    repoId: "R_kgDOOcTbIw"
     category: "Comments"
-    categoryId: ""  # TODO: Get from https://giscus.app
+    categoryId: "DIC_kwDOOcTbI84C1Ira"
     mapping: "pathname"
     theme: "preferred_color_scheme"
+    inputPosition: "bottom"
 
   # Social links
   socialIcons:
