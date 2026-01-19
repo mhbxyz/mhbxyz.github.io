@@ -106,4 +106,4 @@ Pour qu’une “loi” morale soit **vraiment contraignante**, il faut une **au
 
 ## Conclusion
 
-Le “is‑ought problem” constitue un **obstacle structurel** à toute éthique se réclamant d’une simple description du monde. En rejetant toute transcendance, la vision matérialiste se prive de **fondement pour le devoir moral** : droits humains, justice et dignité deviennent arbitraires. **L’enjeu** est donc de voir si l’on peut définir une forme de transcendance minimale — qu’elle soit théiste, platonicienne ou kantienne — pour **sauver la morale** dans un univers désenchanté.
+Le “is‑ought problem” constitue un **obstacle structurel** à toute éthique se réclamant d’une simple description du monde. En rejetant toute transcendance, la vision matérialiste se prive de **fondement pour le devoir moral** : droits humains, justice et dignité deviennent arbitraires. **L’enjeu** est donc de voir si l’on peut définir une forme de transcendance minimale: qu’elle soit théiste, platonicienne ou kantienne: pour **sauver la morale** dans un univers désenchanté.

@@ -11,7 +11,7 @@ description: "An in-memory database for Python with SQL-like CRUD, optional sche
 
 ## Why DictDB?
 
-When prototyping or writing tests, you need a data store as agile as your code. SQLite feels heavy; plain dictionaries lack structure and querying power. **DictDB** bridges that gap: an in-memory, dictionary-backed database with SQL-like CRUD, optional schemas, indexing, and persistence — no server required.
+When prototyping or writing tests, you need a data store as agile as your code. SQLite feels heavy; plain dictionaries lack structure and querying power. **DictDB** bridges that gap: an in-memory, dictionary-backed database with SQL-like CRUD, optional schemas, indexing, and persistence. No server required.
 
 ## Features
 

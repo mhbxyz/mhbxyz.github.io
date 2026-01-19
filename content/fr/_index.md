@@ -6,7 +6,7 @@ layout: "home"
 
 # Bienvenue !
 
-👋 Bonjour, je suis Manoah — ingénieur logiciel, curieux par nature et adepte de la philosophie (amour du savoir).
+👋 Bonjour, je suis Manoah, ingénieur logiciel, curieux par nature et adepte de la philosophie (amour du savoir).
 
 Je conçois des outils numériques pensés pour servir l’humain, et non l’inverse. Ce blog est l’espace où je partage mes pensées : techniques, culturelles, spirituelles.
 

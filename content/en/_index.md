@@ -6,7 +6,7 @@ layout: "home"
 
 # Welcome !
 
-👋 Hi, I’m Manoah — a software engineer with a curious mind and a taste for philosophy (love of knowledge).
+👋 Hi, I’m Manoah, a software engineer with a curious mind and a taste for philosophy (love of knowledge).
 
 I build digital tools that serve people, not the other way around. I’m interested in the intersections between code, culture, and conscience. This blog is where I write about what I learn, what I build, and what I believe.
 

@@ -106,4 +106,4 @@ For a moral “law” to be **truly binding**, it requires a **higher authority*
 
 ## Conclusion
 
-The “is‑ought problem” is a **structural obstacle** to any ethics claiming to arise solely from a description of the world. By rejecting all transcendence, the materialist view deprives itself of a **foundation for moral obligation**: human rights, justice, and dignity become arbitrary. The **challenge**, then, is to determine whether a minimal form of transcendence — whether theistic, Platonic, or Kantian — can **save morality** in a disenchanted universe.
+The “is‑ought problem” is a **structural obstacle** to any ethics claiming to arise solely from a description of the world. By rejecting all transcendence, the materialist view deprives itself of a **foundation for moral obligation**: human rights, justice, and dignity become arbitrary. The **challenge**, then, is to determine whether a minimal form of transcendence: whether theistic, Platonic, or Kantian: can **save morality** in a disenchanted universe.

@@ -11,7 +11,7 @@ description: "Une base de données en mémoire pour Python avec CRUD façon SQL,
 
 ## Pourquoi DictDB ?
 
-Lors du prototypage ou de l'écriture de tests, vous avez besoin d'un stockage aussi agile que votre code. SQLite semble lourd ; les dictionnaires simples manquent de structure et de requêtage. **DictDB** comble ce fossé : une base en mémoire, basée sur les dictionnaires, avec du CRUD façon SQL, des schémas optionnels, de l'indexation et de la persistance — sans serveur.
+Lors du prototypage ou de l'écriture de tests, vous avez besoin d'un stockage aussi agile que votre code. SQLite semble lourd ; les dictionnaires simples manquent de structure et de requêtage. **DictDB** comble ce fossé : une base en mémoire, basée sur les dictionnaires, avec du CRUD façon SQL, des schémas optionnels, de l'indexation et de la persistance. Pas besoin de serveur.
 
 ## Fonctionnalités
 
