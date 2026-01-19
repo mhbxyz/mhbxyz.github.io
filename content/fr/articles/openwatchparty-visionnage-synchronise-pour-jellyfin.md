@@ -1,6 +1,6 @@
 ---
 title: "OpenWatchParty : Visionnage synchronisé pour Jellyfin"
-date: 2025-04-19
+date: 2026-01-19
 tags: ["Jellyfin", "Rust", "Plugin", "Self-Hosted", "Serveur Multimédia"]
 author: "Manoah B."
 draft: false
