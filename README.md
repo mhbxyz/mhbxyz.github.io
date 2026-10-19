@@ -52,7 +52,7 @@ Article bodies remain in their original Markdown files. Matching `translationKey
 
 The original homepage biographies remain in `content/{fr,en}/_index.md` and appear in the About section. Edit interface copy in `i18n/fr.json` and `i18n/en.json`; edit the palette at the top of `assets/css/site.css`.
 
-The avatar is a local copy of the GitHub profile image. Replace `static/images/avatar-github.png` to update it. The portrait and fonts need no external requests. Existing article images retain their original source URLs.
+The original GitHub profile image is preserved at `static/images/avatar-github.png` and used for social previews. The homepage uses `static/images/avatar-github-transparent.png`, a cutout made from the original pixels with an alpha mask, preserving the skull’s dark details and the lettering. Both images retain the original 460 × 460 canvas. When updating the avatar, update both assets. The portrait and fonts need no external requests. Existing article images retain their original source URLs.
 
 ## Reading integrations
 
