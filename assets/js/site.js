@@ -1,6 +1,18 @@
 (() => {
   'use strict';
 
+  const writings = document.querySelector('.writings');
+  if (writings && 'IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    writings.classList.add('motion-await');
+    const reveal = new IntersectionObserver((entries, observer) => {
+      if (!entries.some((entry) => entry.isIntersecting)) return;
+      writings.classList.add('is-revealed');
+      observer.disconnect();
+    }, { rootMargin: '0px 0px -25% 0px', threshold: 0.05 });
+    reveal.observe(writings.querySelector('.section-heading'));
+    reveal.observe(writings.querySelector('.writing-columns'));
+  }
+
   const searchTools = document.querySelector('[data-search]');
   if (searchTools) {
     const input = document.querySelector('#post-search');
