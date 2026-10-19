@@ -2,7 +2,7 @@
 translationKey: pourquoi-dieu-na-pas-interdit-lesclavage
 title: "Why Didn't God Forbid Slavery?"
 date: 2026-10-19
-tags: ["Christianity", "Orthodoxy", "Bible", "History"]
+tags: ["Christianity", "Orthodoxy", "Bible", "History", "Ethics"]
 author: "Manoah B."
 draft: false
 description: "An Orthodox reading of slavery in Scripture, history, and the Church Fathers that faces the difficult passages directly."

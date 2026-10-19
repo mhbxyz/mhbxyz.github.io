@@ -2,7 +2,7 @@
 translationKey: dijkstra
 title: "Elegant Rigor: A Tribute to Dijkstra and the Art of Logical Simplicity"
 date: 2025-04-22
-tags: ["Computer Science", "Philosophy"]
+tags: ["Computer Science", "Philosophy", "Software Engineering"]
 author: "Manoah B."
 draft: false
 description: "Exploring Dijkstra's philosophy of computer science, where rigor and simplicity form a path to intellectual clarity."

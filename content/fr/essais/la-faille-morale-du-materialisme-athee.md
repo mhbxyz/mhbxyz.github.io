@@ -2,7 +2,7 @@
 translationKey: materialism
 title: "De ce qui est à ce qui doit être : la faille morale du matérialisme athée face à la guillotine de Hume"
 date: 2025-04-04
-tags: ["Philosophie", "Éthique"]
+tags: ["Philosophie", "Éthique", "Métaéthique"]
 author: "Manoah B."
 draft: false
 description: "Le matérialisme athée peut-il fonder des normes morales objectives face au problème être-devoir de Hume ?"

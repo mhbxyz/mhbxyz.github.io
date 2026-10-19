@@ -2,7 +2,7 @@
 translationKey: pourquoi-dieu-na-pas-interdit-lesclavage
 title: "Pourquoi Dieu n’a-t-il pas interdit l’esclavage ?"
 date: 2026-10-19
-tags: ["Christianisme", "Orthodoxie", "Bible", "Histoire"]
+tags: ["Christianisme", "Orthodoxie", "Bible", "Histoire", "Éthique"]
 author: "Manoah B."
 draft: false
 description: "Une lecture orthodoxe de l’esclavage dans la Bible, l’histoire et les Pères de l’Église, sans éluder les textes difficiles."

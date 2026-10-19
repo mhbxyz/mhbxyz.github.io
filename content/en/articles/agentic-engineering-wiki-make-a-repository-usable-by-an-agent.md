@@ -2,7 +2,7 @@
 translationKey: agentic-engineering-wiki-harness
 title: "Make a repository usable by a development agent"
 date: 2026-09-03
-tags: ["AI agents", "Development", "Tooling", "Reproducibility"]
+tags: ["AI Agents", "Software Engineering", "Documentation", "Reproducibility"]
 author: "Manoah B."
 draft: false
 description: "Repository instructions, verifiable commands, and explicit permissions make an agent's work reproducible."

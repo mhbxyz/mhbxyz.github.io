@@ -2,7 +2,7 @@
 translationKey: adam
 title: "Adam Is Not Alone: A Theological Inquiry into Human Plurality and the Fall"
 date: 2025-04-11
-tags: ["Christianity", "Orthodoxy"]
+tags: ["Christianity", "Orthodoxy", "Bible", "Biblical Exegesis"]
 author: "Manoah B."
 draft: false
 description: "An Orthodox theological reading of Adam as the ontological prototype of humanity, addressing the question of human plurality in Genesis."

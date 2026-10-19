@@ -2,7 +2,7 @@
 translationKey: genesis
 title: "Genèse, création et orthodoxie : au-delà du littéralisme, vers une lecture vivante"
 date: 2025-04-12
-tags: ["Christianisme", "Orthodoxie"]
+tags: ["Christianisme", "Orthodoxie", "Bible", "Exégèse biblique", "Science et foi"]
 author: "Manoah B."
 draft: false
 description: "Une synthèse orthodoxe réconciliant foi et raison à travers la tradition patristique, au-delà du littéralisme."

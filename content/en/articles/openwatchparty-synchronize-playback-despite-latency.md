@@ -2,7 +2,7 @@
 translationKey: openwatchparty-algorithmes-synchronisation
 title: "OpenWatchParty: synchronize playback despite latency"
 date: 2026-10-19
-tags: ["Jellyfin", "JavaScript", "Rust", "Synchronization", "Video"]
+tags: ["Jellyfin", "Synchronization", "Video", "Distributed Systems"]
 author: "Manoah B."
 draft: false
 description: "Clocks, scheduled actions, drift correction, and HLS buffering: the technical choices behind OpenWatchParty playback synchronization."

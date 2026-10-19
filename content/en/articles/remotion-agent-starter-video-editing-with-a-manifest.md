@@ -2,7 +2,7 @@
 translationKey: remotion-agent-starter-manifeste
 title: "Remotion Agent Starter: describe a video edit with a manifest"
 date: 2026-08-07
-tags: ["Remotion", "TypeScript", "Video", "Automation"]
+tags: ["AI Agents", "Remotion", "Video", "Automation"]
 author: "Manoah B."
 draft: false
 description: "A JSON manifest for the edit, a Zod schema for its boundaries, and React for rendering the frames."

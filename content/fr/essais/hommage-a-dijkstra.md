@@ -2,7 +2,7 @@
 translationKey: dijkstra
 title: "La rigueur élégante : hommage à Dijkstra et à l’art de la simplicité logique"
 date: 2025-04-22
-tags: ["Informatique", "Philosophie"]
+tags: ["Informatique", "Philosophie", "Ingénierie logicielle"]
 author: "Manoah B."
 draft: false
 description: "La philosophie de Dijkstra en informatique, où rigueur et simplicité forment un chemin vers la clarté intellectuelle."

@@ -2,7 +2,7 @@
 translationKey: agentic-engineering-wiki-harness
 title: "Rendre un dépôt utilisable par un agent de développement"
 date: 2026-09-03
-tags: ["Agents IA", "Développement", "Outillage", "Reproductibilité"]
+tags: ["Agents IA", "Ingénierie logicielle", "Documentation", "Reproductibilité"]
 author: "Manoah B."
 draft: false
 description: "Des consignes de dépôt, des commandes vérifiables et des permissions explicites pour rendre le travail d'un agent reproductible."

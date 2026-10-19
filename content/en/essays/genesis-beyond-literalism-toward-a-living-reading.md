@@ -2,7 +2,7 @@
 translationKey: genesis
 title: "Genesis, Creation and Orthodoxy: Beyond Literalism Toward a Living Reading"
 date: 2025-04-12
-tags: ["Christianity", "Orthodoxy"]
+tags: ["Christianity", "Orthodoxy", "Bible", "Biblical Exegesis", "Science and Faith"]
 author: "Manoah B."
 draft: false
 description: "An Orthodox synthesis reconciling faith and reason through Patristic tradition, moving beyond literalism to a living reading of Genesis."

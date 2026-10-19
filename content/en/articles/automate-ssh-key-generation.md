@@ -2,7 +2,7 @@
 translationKey: ssh-keybuild
 title: "Automate SSH Key Generation with ssh-keybuild"
 date: 2025-04-19
-tags: ["automatisation", "shell", "ssh"]
+tags: ["SSH", "Shell", "Automation", "Security"]
 author: "Manoah B."
 draft: false
 description: "A shell script to generate SSH keys, add them to an SSH agent, copy their public keys to the clipboard, and update ~/.ssh/config."

@@ -2,7 +2,7 @@
 translationKey: dictdb
 title: "DictDB : une base de données en mémoire légère pour Python"
 date: 2025-04-19
-tags: ["Python", "Base de Données en Mémoire", "Prototypage", "Outils Développeur"]
+tags: ["Python", "Base de données en mémoire", "Prototypage", "Outils Développeur"]
 author: "Manoah B."
 draft: false
 description: "Une base de données en mémoire pour Python avec CRUD façon SQL, schémas optionnels, indexation et persistance."

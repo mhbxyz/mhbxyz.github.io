@@ -2,7 +2,7 @@
 translationKey: openwatchparty-algorithmes-synchronisation
 title: "OpenWatchParty : synchroniser la lecture malgré la latence"
 date: 2026-10-19
-tags: ["Jellyfin", "JavaScript", "Rust", "Synchronisation", "Vidéo"]
+tags: ["Jellyfin", "Synchronisation", "Vidéo", "Systèmes distribués"]
 author: "Manoah B."
 draft: false
 description: "Horloges, actions programmées, correction de dérive et mise en tampon HLS : les choix techniques derrière la lecture synchronisée d'OpenWatchParty."

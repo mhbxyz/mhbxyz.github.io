@@ -2,7 +2,7 @@
 translationKey: protonmail-mcp-securite
 title: "protonmail-mcp: give an agent email access without a blank check"
 date: 2026-10-13
-tags: ["Python", "MCP", "Proton Mail", "Security"]
+tags: ["AI Agents", "MCP", "Proton Mail", "Security"]
 author: "Manoah B."
 draft: false
 description: "Read access by default, explicitly enabled capabilities, and confirmation for changes: the protonmail-mcp security model."

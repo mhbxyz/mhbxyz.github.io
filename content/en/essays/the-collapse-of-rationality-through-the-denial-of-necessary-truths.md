@@ -2,7 +2,7 @@
 translationKey: rationality
 title: '"2 + 2 = 5"? The Collapse of Rationality Through the Denial of Necessary Truths'
 date: 2025-04-19
-tags: ["Christianity", "Philosophy"]
+tags: ["Christianity", "Philosophy", "Logic", "Epistemology"]
 author: "Manoah B."
 draft: false
 math: true

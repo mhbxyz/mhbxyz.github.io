@@ -2,7 +2,7 @@
 translationKey: fptk-erreurs-explicites
 title: "fptk: make errors explicit in a Python API"
 date: 2026-02-06
-tags: ["Python", "API", "Functional programming", "Error handling"]
+tags: ["Python", "API", "Functional Programming", "Error Handling"]
 author: "Manoah B."
 draft: false
 description: "Result and Validation make expected failures visible without turning every function into a try/except block."

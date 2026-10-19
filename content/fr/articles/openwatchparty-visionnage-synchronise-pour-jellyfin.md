@@ -2,7 +2,7 @@
 translationKey: openwatchparty
 title: "OpenWatchParty : visionnage synchronisé pour Jellyfin"
 date: 2026-01-19
-tags: ["Jellyfin", "Rust", "Plugin", "Self-Hosted", "Serveur Multimédia"]
+tags: ["Jellyfin", "Rust", "Synchronisation", "Auto-hébergement"]
 author: "Manoah B."
 draft: false
 mermaid: true

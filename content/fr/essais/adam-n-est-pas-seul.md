@@ -2,7 +2,7 @@
 translationKey: adam
 title: "Adam n’est pas seul : étude théologique sur la pluralité et la chute de la nature humaine originelle"
 date: 2025-04-11
-tags: ["Christianisme", "Orthodoxie"]
+tags: ["Christianisme", "Orthodoxie", "Bible", "Exégèse biblique"]
 author: "Manoah B."
 draft: false
 description: "Une lecture théologique orthodoxe d'Adam comme prototype ontologique de l'humanité."

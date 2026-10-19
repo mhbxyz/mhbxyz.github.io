@@ -2,7 +2,7 @@
 translationKey: ssh-keybuild
 title: "Automatisation de la génération de clés SSH avec ssh-keybuild"
 date: 2025-04-19
-tags: ["automation", "shell", "ssh"]
+tags: ["SSH", "Shell", "Automatisation", "Sécurité"]
 author: "Manoah B."
 draft: false
 description: "Un script shell pour générer des clés SSH, les ajouter à l’agent, copier leur clé publique dans le presse-papiers et mettre à jour ~/.ssh/config."

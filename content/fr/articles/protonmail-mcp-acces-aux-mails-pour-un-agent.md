@@ -2,7 +2,7 @@
 translationKey: protonmail-mcp-securite
 title: "protonmail-mcp : donner accès à ses mails à un agent sans lui donner carte blanche"
 date: 2026-10-13
-tags: ["Python", "MCP", "Proton Mail", "Sécurité"]
+tags: ["Agents IA", "MCP", "Proton Mail", "Sécurité"]
 author: "Manoah B."
 draft: false
 description: "Lecture par défaut, capacités activées explicitement et confirmation des modifications : le modèle de sécurité de protonmail-mcp."

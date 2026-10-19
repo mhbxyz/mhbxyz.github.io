@@ -2,7 +2,7 @@
 translationKey: remotion-agent-starter-manifeste
 title: "Remotion Agent Starter : décrire un montage vidéo par un manifeste"
 date: 2026-08-07
-tags: ["Remotion", "TypeScript", "Vidéo", "Automatisation"]
+tags: ["Agents IA", "Remotion", "Vidéo", "Automatisation"]
 author: "Manoah B."
 draft: false
 description: "Un manifeste JSON pour décrire le montage, une validation Zod pour en fixer les limites et React pour produire les images."
