@@ -3,6 +3,7 @@
 <head>{{ partial "head.html" . }}</head>
 <body id="top" class="{{ if .IsHome }}home-page{{ else if .IsPage }}article-page{{ else }}archive-page{{ end }}">
   <a class="skip-link" href="#main">{{ i18n "skip" }}</a>
+  <div class="incense-smoke" aria-hidden="true"><span class="incense-smoke-wisp incense-smoke-wisp-left"></span><span class="incense-smoke-wisp incense-smoke-wisp-right"></span></div>
   {{ partial "header.html" . }}
   <main id="main">{{ block "main" . }}{{ end }}</main>
   {{ partial "footer.html" . }}
