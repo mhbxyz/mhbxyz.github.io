@@ -1,0 +1,24 @@
+{{ define "main" }}
+{{/* Keep Hugo's historical /page/1/ aliases; search covers the entire collection. */}}
+{{ $allPages := .RegularPages.ByDate.Reverse }}
+{{ $pagination := .Paginate $allPages (math.Max 1 (len $allPages)) }}
+<div class="shell archive">
+  <header class="archive-header"><a class="back-link" href="{{ .Site.Home.RelPermalink }}">{{ i18n "home" }}</a><h1>{{ .Title }}</h1><p>{{ if eq .Section "articles" }}{{ i18n "articlesLong" }}{{ else if or (eq .Section "essais") (eq .Section "essays") }}{{ i18n "essaysLong" }}{{ else }}{{ i18n "topicDescription" }}{{ end }}</p></header>
+  {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+  <div class="archive-tools" data-search hidden>
+    <label class="search-field"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 6 6"/></svg><span class="sr-only">{{ i18n "search" }}</span><input type="search" id="post-search" placeholder="{{ i18n "search" }}" autocomplete="off"></label>
+    <label class="topic-filter"><span class="sr-only">{{ i18n "filter" }}</span><select id="topic-filter"><option value="">{{ i18n "allTopics" }}</option>{{ $tags := slice }}{{ range .RegularPages }}{{ range .Params.tags }}{{ $tags = $tags | append . }}{{ end }}{{ end }}{{ range ($tags | uniq | sort) }}<option value="{{ . }}">{{ . }}</option>{{ end }}</select></label>
+  </div>
+  <div class="archive-count" role="status" aria-live="polite"><span id="result-count">{{ len .RegularPages }}</span> <span id="result-label" data-singular="{{ i18n "text" }}" data-plural="{{ i18n "texts" }}">{{ if eq (len .RegularPages) 1 }}{{ i18n "text" }}{{ else }}{{ i18n "texts" }}{{ end }}</span></div>
+  <div class="post-list">
+    {{ range .RegularPages.ByDate.Reverse }}
+    <article class="post-row" data-post data-search-text="{{ .Title }} {{ .Description }} {{ delimit .Params.tags " " }}" data-tags="{{ .Params.tags | jsonify }}">
+      <div class="row-date">{{ partial "meta.html" . }}</div>
+      <div class="row-content"><h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2><p>{{ .Description }}</p><div class="tags">{{ range .GetTerms "tags" }}<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}</div></div>
+      <span class="row-arrow">{{ partial "arrow.html" "diagonal" }}</span>
+    </article>
+    {{ end }}
+  </div>
+  <div class="empty-results" hidden><h2>{{ i18n "noResults" }}</h2><p>{{ i18n "tryAgain" }}</p><button class="button" id="reset-search" type="button">{{ i18n "reset" }}</button></div>
+</div>
+{{ end }}

@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="reading-progress" aria-hidden="true"></div>
+<article class="shell reading-page">
+  <header class="article-header">
+    <a class="back-link" href="{{ .CurrentSection.RelPermalink }}">{{ partial "arrow.html" "left" }} {{ .CurrentSection.Title }}</a>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="article-description">{{ . }}</p>{{ end }}
+    <div class="article-byline"><span>{{ .Params.author | default "Manoah B." }}</span>{{ partial "meta.html" . }}</div>
+  </header>
+  <div class="reading-layout">
+    <aside class="reading-sidebar">{{ if gt (len .TableOfContents) 50 }}<details class="toc" open><summary>{{ i18n "contents" }}</summary>{{ .TableOfContents }}</details>{{ end }}<a class="sidebar-top" href="#top">{{ i18n "backTop" }} {{ partial "arrow.html" "up" }}</a></aside>
+    <div class="article-body">
+      <div class="prose article-content" data-copy-label="{{ i18n "copy" }}" data-copied-label="{{ i18n "copied" }}" data-copy-error="{{ i18n "copyError" }}">{{ .Content }}</div>
+      <div class="article-end">{{ partial "cross.html" . }}</div>
+      <div class="tags">{{ range .GetTerms "tags" }}<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}</div>
+      <nav class="post-navigation" aria-label="{{ i18n "continueReading" }}">{{ with .PrevInSection }}<a href="{{ .RelPermalink }}"><span>{{ i18n "previous" }}</span><strong>{{ .Title }}</strong></a>{{ end }}{{ with .NextInSection }}<a href="{{ .RelPermalink }}"><span>{{ i18n "next" }}</span><strong>{{ .Title }}</strong></a>{{ end }}</nav>
+      {{ if .Param "comments" }}<section class="comments" aria-labelledby="comments-title"><h2 id="comments-title">{{ i18n "discussion" }}</h2>{{ partial "comments.html" . }}</section>{{ end }}
+    </div>
+  </div>
+</article>
+{{ end }}

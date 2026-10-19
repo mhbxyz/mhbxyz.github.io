@@ -1,7 +1,6 @@
 baseURL: "https://mhbxyz.github.io/"
 languageCode: "fr"
 title: "mhbxyz"
-theme: "PaperMod"
 defaultContentLanguage: "fr"
 defaultContentLanguageInSubdir: true
 math: true
@@ -18,17 +17,8 @@ params:
     category: "Comments"
     categoryId: "DIC_kwDOOcTbI84C1Ira"
     mapping: "pathname"
-    theme: "preferred_color_scheme"
+    theme: "dark_dimmed"
     inputPosition: "bottom"
-
-  # Social links
-  socialIcons:
-    - name: github
-      url: "https://github.com/mhbxyz"
-    - name: email
-      url: "mailto:manoah.bernier@gmail.com"
-    - name: rss
-      url: "/index.xml"
 
 languages:
   fr:
@@ -47,20 +37,6 @@ languages:
         - name: "Articles"
           url: "/fr/articles/"
           weight: 3
-    params:
-      ShowReadingTime: true
-      ShowShareButtons: false
-      disableSpecial1stPost: true
-      math: true
-      profileMode:
-        enabled: true
-        title: "Bienvenue sur le blog de mhbxyz"
-        subtitle: '"Un jour, la Beauté sauvera le Monde"'
-        imageUrl: "https://avatars.githubusercontent.com/u/43188009?v=4"
-        imageTitle: "Mort au Monde !"
-        imageWidth: 256
-        imageHeight: 256
-
   en:
     languageName: "English"
     weight: 2
@@ -77,16 +53,3 @@ languages:
         - name: "Articles"
           url: "/en/articles/"
           weight: 3
-    params:
-      ShowReadingTime: true
-      ShowShareButtons: false
-      disableSpecial1stPost: true
-      math: true
-      profileMode:
-        enabled: true
-        title: "Welcome to mhbxyz's Blog"
-        subtitle: '"One day, Beauty will save the World"'
-        imageUrl: "https://avatars.githubusercontent.com/u/43188009?v=4"
-        imageTitle: "Death To The World!"
-        imageWidth: 256
-        imageHeight: 256

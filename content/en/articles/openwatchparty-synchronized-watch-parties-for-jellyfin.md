@@ -1,4 +1,5 @@
 ---
+translationKey: openwatchparty
 title: "OpenWatchParty: Synchronized Watch Parties for Jellyfin"
 date: 2026-01-19
 tags: ["Jellyfin", "Rust", "Plugin", "Self-Hosted", "Media Server"]

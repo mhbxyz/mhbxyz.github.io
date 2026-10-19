@@ -1,4 +1,5 @@
 ---
+translationKey: dictdb
 title: "DictDB : Une base de données en mémoire légère pour Python"
 date: 2025-04-19
 tags: ["Python", "Base de Données en Mémoire", "Prototypage", "Outils Développeur"]

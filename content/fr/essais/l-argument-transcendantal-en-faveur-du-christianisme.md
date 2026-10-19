@@ -1,4 +1,5 @@
 ---
+translationKey: transcendental
 title: "L’argument transcendantal en faveur du Christianisme : fondement rationnel d’une vérité absolue"
 date: 2025-04-05
 tags: ["Christianisme", "Philosophie"]

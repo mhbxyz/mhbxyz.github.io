@@ -1,4 +1,5 @@
 ---
+translationKey: materialism
 title: "From What Is to What Ought to Be: The Moral Flaw of Atheistic Materialism Faced with Hume's Guillotine"
 date: 2025-04-04
 tags: ["Philosophy", "Ethics"]

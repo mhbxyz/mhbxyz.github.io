@@ -13,7 +13,7 @@ I build digital tools that serve people, not the other way around. I’m interes
 You’ll find here:
 - Technical articles about development, architecture, and automation
 - Essays on society, power, faith, and the ethics of progress
-- Occasional reflections on my journey as an Orthodox Christian and digital craftsman
+- Occasional reflections on my personal journey and my work as a digital craftsman
 
 I’m based in France, but I build and write for a world that’s much wider.
 

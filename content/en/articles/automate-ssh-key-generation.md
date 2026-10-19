@@ -1,4 +1,5 @@
 ---
+translationKey: ssh-keybuild
 title: "Automate SSH Key Generation with ssh-keybuild"
 date: 2025-04-19
 tags: ["automatisation", "shell", "ssh"]

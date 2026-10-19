@@ -1,0 +1,4 @@
+<footer class="site-footer shell">
+  <div class="footer-top"><a class="wordmark" href="{{ .Site.Home.RelPermalink }}">mhbxyz</a><p>{{ i18n "footerMotto" }}</p></div>
+  <div class="footer-bottom"><span>© {{ now.Year }} Manoah B.</span><nav aria-label="{{ i18n "links" }}"><a href="https://github.com/mhbxyz">GitHub</a><a href="mailto:manoah.bernier@gmail.com">{{ i18n "contact" }}</a>{{ with .Site.Home.OutputFormats.Get "RSS" }}<a href="{{ .RelPermalink }}">RSS</a>{{ end }}<a href="#top">{{ i18n "backTop" }} {{ partial "arrow.html" "up" }}</a></nav></div>
+</footer>

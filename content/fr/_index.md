@@ -13,7 +13,7 @@ Je conçois des outils numériques pensés pour servir l’humain, et non l’in
 Vous y trouverez :
 - Des articles sur le développement, l’architecture logicielle, et l’automatisation
 - Des essais sur la société, le pouvoir, la foi et l’éthique du progrès
-- Des réflexions personnelles, inspirées par mon cheminement en tant que chrétien orthodoxe et artisan du numérique
+- Des réflexions personnelles, inspirées par mon cheminement personnel et mon travail d’artisan du numérique
 
 J’écris depuis la France, mais je pense pour un monde plus vaste.
 

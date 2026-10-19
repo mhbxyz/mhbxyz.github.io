@@ -1,4 +1,5 @@
 ---
+translationKey: genesis
 title: "Genèse, Création et Orthodoxie : Au‑delà du Littéralisme vers une Lecture Vivante"
 date: 2025-04-12
 tags: ["Christianisme", "Orthodoxie"]

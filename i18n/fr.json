@@ -1,0 +1,164 @@
+{
+  "skip": {
+    "other": "Aller au contenu"
+  },
+  "siteDescription": {
+    "other": "Les carnets de Manoah B. : code, philosophie et culture. Essais et articles, en français et en anglais."
+  },
+  "home": {
+    "other": "Accueil"
+  },
+  "navigation": {
+    "other": "Navigation principale"
+  },
+  "language": {
+    "other": "Langue"
+  },
+  "links": {
+    "other": "Liens"
+  },
+  "contact": {
+    "other": "Contact"
+  },
+  "backTop": {
+    "other": "Haut de page"
+  },
+  "footerMotto": {
+    "other": "« Un jour, la Beauté sauvera le Monde. »"
+  },
+  "reading": {
+    "other": "de lecture"
+  },
+  "intro": {
+    "other": "Manoah B. — Ingénieur logiciel & artisan du numérique"
+  },
+  "heroTitle": {
+    "other": "Un jour,<br>la Beauté sauvera<br>le Monde."
+  },
+  "heroDescription": {
+    "other": "En attendant, j’écris et je construis. Des réflexions sur les idées, la culture et le code, depuis mon petit coin des internets."
+  },
+  "explore": {
+    "other": "Explorer les écrits"
+  },
+  "about": {
+    "other": "À propos"
+  },
+  "avatarAlt": {
+    "other": "Photo de profil GitHub : un crâne portant une croix orthodoxe, entouré des mots « Death to the World », en blanc et or sur fond noir."
+  },
+  "reason": {
+    "other": "Raison"
+  },
+  "code": {
+    "other": "Code"
+  },
+  "freedom": {
+    "other": "Liberté"
+  },
+  "notebook": {
+    "other": "Les carnets"
+  },
+  "recentWritings": {
+    "other": "Derniers écrits"
+  },
+  "writingsDescription": {
+    "other": "Deux chemins, une même recherche : comprendre, créer et discerner."
+  },
+  "essays": {
+    "other": "Essais"
+  },
+  "articles": {
+    "other": "Articles"
+  },
+  "essaysDescription": {
+    "other": "Philosophie, culture & condition humaine"
+  },
+  "articlesDescription": {
+    "other": "Code, outils & logiciels libres"
+  },
+  "read": {
+    "other": "Lire le texte"
+  },
+  "viewAll": {
+    "other": "Tous les"
+  },
+  "behindWords": {
+    "other": "Derrière les mots"
+  },
+  "aboutSubtitle": {
+    "other": "Artisan du numérique. Curieux par nature. En quête de sens."
+  },
+  "writeMe": {
+    "other": "M’écrire"
+  },
+  "articlesLong": {
+    "other": "Des outils pensés pour servir l’humain. Développement, architecture logicielle et projets libres."
+  },
+  "essaysLong": {
+    "other": "Des réflexions sur la philosophie, la société et la condition humaine. Prendre le temps de penser."
+  },
+  "search": {
+    "other": "Rechercher un texte…"
+  },
+  "filter": {
+    "other": "Filtrer par sujet"
+  },
+  "allTopics": {
+    "other": "Tous les sujets"
+  },
+  "texts": {
+    "other": "textes"
+  },
+  "text": {
+    "other": "texte"
+  },
+  "noResults": {
+    "other": "Aucun texte trouvé."
+  },
+  "tryAgain": {
+    "other": "Essayez un autre mot ou choisissez un autre sujet."
+  },
+  "reset": {
+    "other": "Réinitialiser la recherche"
+  },
+  "contents": {
+    "other": "Dans ce texte"
+  },
+  "copy": {
+    "other": "Copier"
+  },
+  "copied": {
+    "other": "Copié !"
+  },
+  "copyError": {
+    "other": "Copie indisponible"
+  },
+  "continueReading": {
+    "other": "Poursuivre la lecture"
+  },
+  "previous": {
+    "other": "Texte précédent"
+  },
+  "next": {
+    "other": "Texte suivant"
+  },
+  "discussion": {
+    "other": "Discussion"
+  },
+  "notFound": {
+    "other": "Le chemin s’arrête ici."
+  },
+  "notFoundDescription": {
+    "other": "Cette page n’existe pas ou a été déplacée. Les écrits vous attendent à l’accueil."
+  },
+  "returnHome": {
+    "other": "Revenir à l’accueil"
+  },
+  "topicDescription": {
+    "other": "Retrouvez les textes réunis autour de ce sujet."
+  },
+  "curiosity": {
+    "other": "Curiosité"
+  }
+}

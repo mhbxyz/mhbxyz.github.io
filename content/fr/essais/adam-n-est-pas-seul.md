@@ -1,4 +1,5 @@
 ---
+translationKey: adam
 title: "Adam N’est Pas Seul : Étude Théologique Sur La Pluralité Et La Chute De La Nature Humaine Originelle"
 date: 2025-04-11
 tags: ["Christianisme", "Orthodoxie"]

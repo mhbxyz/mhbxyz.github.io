@@ -1,4 +1,5 @@
 ---
+translationKey: rationality
 title: '"2 + 2 = 5"? – The Collapse of Rationality Through the Denial of Necessary Truths'
 date: 2025-04-19
 tags: ["Christianity", "Philosophy"]

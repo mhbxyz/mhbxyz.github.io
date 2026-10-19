@@ -32,7 +32,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive
           fetch-depth: 0
 
       - name: Setup Pages
@@ -49,6 +48,8 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+          # GitHub Pages looks for the error page at the publishing root.
+          cp public/fr/404.html public/404.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

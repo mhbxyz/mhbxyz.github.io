@@ -1,0 +1,3 @@
+{{ $level := .Level }}
+{{ if .Page.IsHome }}{{ $level = math.Min 6 (add $level 2) }}{{ end }}
+<h{{ $level }} id="{{ .Anchor | safeURL }}">{{ .Text | safeHTML }}</h{{ $level }}>

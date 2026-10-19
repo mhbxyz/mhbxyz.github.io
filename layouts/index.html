@@ -1,0 +1,32 @@
+{{ define "main" }}
+<section class="hero shell" aria-labelledby="hero-title">
+  <div class="hero-copy">
+    <p class="intro-line"><span class="gold-dash" aria-hidden="true"></span>{{ i18n "intro" }}</p>
+    <h1 id="hero-title">{{ i18n "heroTitle" | safeHTML }}</h1>
+    <p class="hero-description">{{ i18n "heroDescription" }}</p>
+    <div class="hero-actions"><a class="button" href="#writings">{{ i18n "explore" }}{{ partial "arrow.html" "down" }}</a><a class="quiet-link" href="#about">{{ i18n "about" }}</a></div>
+  </div>
+  <figure class="hero-art"><img src="{{ "images/avatar-github.png" | relURL }}" alt="{{ i18n "avatarAlt" }}" width="460" height="460" fetchpriority="high"></figure>
+</section>
+<div class="interests shell" aria-hidden="true"><span>{{ i18n "curiosity" }}</span><i>✦</i><span>{{ i18n "reason" }}</span><i>✦</i><span>{{ i18n "code" }}</span><i>✦</i><span>{{ i18n "freedom" }}</span></div>
+<section id="writings" class="writings shell" aria-labelledby="writings-title">
+  <div class="section-heading"><div><p class="section-kicker">{{ i18n "notebook" }}</p><h2 id="writings-title">{{ i18n "recentWritings" }}</h2></div><p>{{ i18n "writingsDescription" }}</p></div>
+  <div class="writing-columns">
+  {{ range slice (dict "section" (cond (eq .Language.Lang "fr") "essais" "essays") "label" "essays" "description" "essaysDescription" "symbol" "book") (dict "section" "articles" "label" "articles" "description" "articlesDescription" "symbol" "code") }}
+    {{ $section := $.Site.GetPage .section }}
+    <section class="writing-column">
+      <div class="column-heading"><div><h3><a href="{{ $section.RelPermalink }}">{{ i18n .label }}</a></h3><p>{{ i18n .description }}</p></div>{{ partial "section-icon.html" .symbol }}</div>
+      {{ range first 1 $section.RegularPages.ByDate.Reverse }}
+      <article class="featured-post">{{ partial "meta.html" . }}<h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4><p>{{ .Description }}</p><a class="read-link" href="{{ .RelPermalink }}">{{ i18n "read" }}<span class="sr-only"> : {{ .Title }}</span>{{ partial "arrow.html" "diagonal" }}</a></article>
+      {{ end }}
+      <div class="compact-posts">{{ range first 2 (after 1 $section.RegularPages.ByDate.Reverse) }}<article><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_medium" }}</time><h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4></article>{{ end }}</div>
+      <a class="collection-link" href="{{ $section.RelPermalink }}">{{ i18n "viewAll" }} {{ lower (i18n .label) }}<span class="count">{{ len $section.RegularPages }}</span>{{ partial "arrow.html" "diagonal" }}</a>
+    </section>
+  {{ end }}
+  </div>
+</section>
+<section id="about" class="about-section shell" aria-labelledby="about-title">
+  <div class="about-signature"><p class="section-kicker">{{ i18n "behindWords" }}</p><h2 id="about-title">Manoah B.</h2><p>{{ i18n "aboutSubtitle" }}</p><a class="quiet-link" href="mailto:manoah.bernier@gmail.com">{{ i18n "writeMe" }} {{ partial "arrow.html" "diagonal" }}</a></div>
+  <div class="about-text prose">{{ .Content }}</div>
+</section>
+{{ end }}

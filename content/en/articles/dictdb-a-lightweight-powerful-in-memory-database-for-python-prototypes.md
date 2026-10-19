@@ -1,4 +1,5 @@
 ---
+translationKey: dictdb
 title: "DictDB: A Lightweight In-Memory Database for Python"
 date: 2025-04-19
 tags: ["Python", "In-Memory Database", "Prototyping", "Developer Tools"]

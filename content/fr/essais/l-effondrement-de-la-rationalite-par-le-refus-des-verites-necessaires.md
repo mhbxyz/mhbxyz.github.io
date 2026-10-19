@@ -1,4 +1,5 @@
 ---
+translationKey: rationality
 title: "« 2 + 2 = 5 » ? – L'effondrement de la rationalité par le refus des vérités nécessaires"
 date: 2025-04-19
 tags: ["Christianisme", "Philosophie"]

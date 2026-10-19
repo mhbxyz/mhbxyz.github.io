@@ -1,4 +1,5 @@
 ---
+translationKey: dijkstra
 title: "Elegant Rigor: A Tribute to Dijkstra and the Art of Logical Simplicity"
 date: 2025-04-22
 tags: ["Computer Science", "Philosophy"]

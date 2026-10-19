@@ -1,4 +1,5 @@
 ---
+translationKey: transcendental
 title: "The Transcendental Argument for Christianity: Rational Grounding of an Absolute Truth"
 date: 2025-04-05
 tags: ["Christianity", "Philosophy"]

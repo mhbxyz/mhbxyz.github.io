@@ -1,0 +1,164 @@
+{
+  "skip": {
+    "other": "Skip to content"
+  },
+  "siteDescription": {
+    "other": "The notebooks of Manoah B.: code, philosophy and culture. Essays and articles in French and English."
+  },
+  "home": {
+    "other": "Home"
+  },
+  "navigation": {
+    "other": "Main navigation"
+  },
+  "language": {
+    "other": "Language"
+  },
+  "links": {
+    "other": "Links"
+  },
+  "contact": {
+    "other": "Contact"
+  },
+  "backTop": {
+    "other": "Back to top"
+  },
+  "footerMotto": {
+    "other": "“One day, Beauty will save the World.”"
+  },
+  "reading": {
+    "other": "read"
+  },
+  "intro": {
+    "other": "Manoah B. — Software engineer & digital craftsman"
+  },
+  "heroTitle": {
+    "other": "One day,<br>Beauty will save<br>the World."
+  },
+  "heroDescription": {
+    "other": "Until then, I write and build. Reflections on ideas, culture and code, from my little corner of the internet."
+  },
+  "explore": {
+    "other": "Explore the writings"
+  },
+  "about": {
+    "other": "About"
+  },
+  "avatarAlt": {
+    "other": "GitHub profile picture: a skull bearing an Orthodox cross, surrounded by the words “Death to the World”, in white and gold on black."
+  },
+  "reason": {
+    "other": "Reason"
+  },
+  "code": {
+    "other": "Code"
+  },
+  "freedom": {
+    "other": "Freedom"
+  },
+  "notebook": {
+    "other": "The notebooks"
+  },
+  "recentWritings": {
+    "other": "Recent writings"
+  },
+  "writingsDescription": {
+    "other": "Two paths, one pursuit: to understand, to create, to discern."
+  },
+  "essays": {
+    "other": "Essays"
+  },
+  "articles": {
+    "other": "Articles"
+  },
+  "essaysDescription": {
+    "other": "Philosophy, culture & the human condition"
+  },
+  "articlesDescription": {
+    "other": "Code, tools & open-source software"
+  },
+  "read": {
+    "other": "Read the text"
+  },
+  "viewAll": {
+    "other": "All"
+  },
+  "behindWords": {
+    "other": "Behind the words"
+  },
+  "aboutSubtitle": {
+    "other": "A digital craftsman. Curious by nature. In search of meaning."
+  },
+  "writeMe": {
+    "other": "Write to me"
+  },
+  "articlesLong": {
+    "other": "Tools built to serve people. Development, software architecture and open-source projects."
+  },
+  "essaysLong": {
+    "other": "Reflections on philosophy, society and the human condition. Taking time to think."
+  },
+  "search": {
+    "other": "Search the writings…"
+  },
+  "filter": {
+    "other": "Filter by topic"
+  },
+  "allTopics": {
+    "other": "All topics"
+  },
+  "texts": {
+    "other": "texts"
+  },
+  "text": {
+    "other": "text"
+  },
+  "noResults": {
+    "other": "No writings found."
+  },
+  "tryAgain": {
+    "other": "Try another word or choose a different topic."
+  },
+  "reset": {
+    "other": "Reset the search"
+  },
+  "contents": {
+    "other": "In this text"
+  },
+  "copy": {
+    "other": "Copy"
+  },
+  "copied": {
+    "other": "Copied!"
+  },
+  "copyError": {
+    "other": "Copy unavailable"
+  },
+  "continueReading": {
+    "other": "Continue reading"
+  },
+  "previous": {
+    "other": "Previous text"
+  },
+  "next": {
+    "other": "Next text"
+  },
+  "discussion": {
+    "other": "Discussion"
+  },
+  "notFound": {
+    "other": "The path ends here."
+  },
+  "notFoundDescription": {
+    "other": "This page does not exist or has moved. The writings are waiting on the homepage."
+  },
+  "returnHome": {
+    "other": "Return home"
+  },
+  "topicDescription": {
+    "other": "Explore the writings collected around this topic."
+  },
+  "curiosity": {
+    "other": "Curiosity"
+  }
+}

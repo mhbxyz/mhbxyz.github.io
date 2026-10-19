@@ -1,0 +1,24 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#000000">
+<title>{{ if not .IsHome }}{{ .Title }} — {{ end }}mhbxyz</title>
+{{ $description := .Description | default (i18n "siteDescription") }}
+<meta name="description" content="{{ $description }}">
+<meta name="author" content="{{ .Params.author | default "Manoah B." }}">
+<link rel="canonical" href="{{ .Permalink }}">
+{{ range .AllTranslations }}<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">{{ end }}
+{{ with .OutputFormats.Get "RSS" }}<link rel="alternate" type="application/rss+xml" title="{{ site.Title }}" href="{{ .Permalink }}">{{ end }}
+<link rel="icon" href="{{ "images/monogram.svg" | relURL }}" type="image/svg+xml">
+<link rel="preload" href="{{ "fonts/cormorant-bold.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ "fonts/unifraktur-bold.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+{{ $css := resources.Get "css/site.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+<meta property="og:title" content="{{ if .IsHome }}mhbxyz{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:image" content="{{ "images/avatar-github.png" | absURL }}">
+<meta property="og:locale" content="{{ if eq .Language.Lang "fr" }}fr_FR{{ else }}en_GB{{ end }}">
+<meta name="twitter:card" content="summary">
+{{ if .IsPage }}{{ partial "extend_head.html" . }}{{ end }}
