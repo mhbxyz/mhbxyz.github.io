@@ -10,7 +10,7 @@ description: "Result and Validation make expected failures visible without turni
 
 ## The problem is not exceptions
 
-An API request goes through several steps: decode JSON, validate input, write to a database, then build a response. Each step can fail. In Python, we can let exceptions rise and catch them at the end. That works, but a function's signature does not tell us which steps can produce an expected failure. We may end up with one large `try/except` around the whole request, without a clear idea of what it catches.
+An API request goes through several steps: decode JSON, validate input, write to a database, then build a response. Each step can fail. In Python, we can let exceptions rise and catch them at the end. That works, but a function's signature does not tell us which operations can produce an expected failure. We may end up with one large `try/except` around the whole request, without a clear idea of what it catches.
 
 I built [fptk](https://github.com/mhbxyz/fptk) to try another way of composing these operations. The goal is not to ban exceptions. It is to represent predictable failures in the values functions return.
 
@@ -32,7 +32,7 @@ def parse_age(value: str):
 next_year = parse_age("42").map(lambda age: age + 1)
 ```
 
-`map` transforms the value when the result is `Ok`. If conversion returned `Err`, the error passes through this step without another check. To chain a function that may also fail, use `bind`. The HTTP response is built at the edge of the application, where each error can be turned into a useful status and message.
+`map` transforms the value when the result is `Ok`. If conversion returned `Err`, the error passes through this step without another check. To chain a function that may also fail, use `bind`. The HTTP response is built at the edge of the application, where each error can be turned into a useful status code and message.
 
 ## Absence and failure mean different things
 

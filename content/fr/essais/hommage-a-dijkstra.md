@@ -8,7 +8,7 @@ draft: false
 description: "La philosophie de Dijkstra en informatique, où rigueur et simplicité forment un chemin vers la clarté intellectuelle."
 ---
 
-### Introduction
+## Introduction
 
 Edsger W. Dijkstra (1930–2002) est sans conteste l’un des pionniers les plus influents de l’informatique moderne. Concepteur de l’algorithme du plus court chemin, inventeur des sémaphores et pourfendeur de la complexité abusive, il a façonné notre manière de penser le code et la théorie des programmes. En tant qu’ingénieur logiciel, je me retrouve profondément en résonance avec sa quête incessante de clarté : apprendre à transformer des idées abstraites en artefacts limpides, où chaque ligne de code porte une justification mathématique irréfutable. Mon propos est simple : Dijkstra n’était pas seulement un ingénieur hors pair, mais un philosophe de l’informatique, pour qui la rigueur et la simplicité constituent une forme d’ascèse intellectuelle. À travers cet essai, j’examinerai son parcours et sa pensée, j’analyserai sa vision de la simplicité comme exigence, puis j’en tirerai les leçons pratiques pour l’ingénieur logiciel contemporain.
 
@@ -16,13 +16,13 @@ Edsger W. Dijkstra (1930–2002) est sans conteste l’un des pionniers les plus
 
 ## I. Dijkstra, ingénieur et philosophe de l’informatique
 
-### A. Un scientifique hors-norme
+### A. Un scientifique hors norme
 
-Né aux Pays-Bas, Dijkstra obtient son doctorat en mathématiques appliquées à l’Université de Eindhoven, avant de rejoindre les laboratoires de Philips. Très vite, son algorithme de calcul du plus court chemin révolutionne non seulement la théorie des graphes, mais trouve des applications concrètes dans les réseaux, la logistique et la planification. Parallèlement, il formalise le concept de sémaphore, pierre angulaire de la programmation concurrente, et participe à la définition d’ALGOL, l’un des premiers langages structurés. Son influence s’étend alors de l’Europe à l’Amérique, où il officie à l’Université d’Austin (Texas), formant une génération de chercheurs à penser l’informatique comme une science rigoureuse et disciplinée.
+Né aux Pays-Bas, Dijkstra obtient son doctorat en mathématiques appliquées à l’université d’Eindhoven, avant de rejoindre les laboratoires de Philips. Très vite, son algorithme de calcul du plus court chemin révolutionne non seulement la théorie des graphes, mais trouve des applications concrètes dans les réseaux, la logistique et la planification. Parallèlement, il formalise le concept de sémaphore, pierre angulaire de la programmation concurrente, et participe à la définition d’ALGOL, l’un des premiers langages structurés. Son influence s’étend alors de l’Europe à l’Amérique, où il officie à Austin, au Texas, formant une génération de chercheurs à penser l’informatique comme une science rigoureuse et disciplinée.
 
 ### B. Une pensée critique et non conventionnelle
 
-Loin des feux de la rampe, Dijkstra se méfiait des modes : il n’utilisait pas le courrier électronique et dénonçait l’illusion de productivité des interfaces graphiques à tout-va. Ses quelques 1 300 rapports EWD (Edsger W. Dijkstra) ne sont pas de simples documents techniques, mais de véritables manifestes intellectuels, où s’expriment sa verve, son humour cinglant et son exigence critique. Dans *« On the Cruelty of Really Teaching Computing Science »*, il met en garde contre l’apprentissage empirique fondé sur l’essai-erreur et prône une approche axée sur la preuve et la démonstration formelle.
+Loin des feux de la rampe, Dijkstra se méfiait des modes : il n’utilisait pas le courrier électronique et dénonçait l’illusion de productivité des interfaces graphiques à tout-va. Ses quelque 1 300 rapports EWD (Edsger W. Dijkstra) ne sont pas de simples documents techniques, mais de véritables manifestes intellectuels, où s’expriment sa verve, son humour cinglant et son exigence critique. Dans *« On the Cruelty of Really Teaching Computing Science »*, il met en garde contre l’apprentissage empirique fondé sur l’essai-erreur et prône une approche axée sur la preuve et la démonstration formelle.
 
 ---
 
@@ -38,7 +38,7 @@ Il distinguait avec netteté la complexité essentielle, inhérente au problème
 
 ### C. Simplicité et vérité : une ascèse intellectuelle
 
-À l’instar des mathématiciens classiques – Euclide, Leibniz ou Pascal – Dijkstra voyait dans la simplicité non pas la facilité, mais l’effort d’épure. Écrire moins pour dire mieux suppose un travail de pensée intense : identifier les invariants, isoler le cœur du problème, rejeter l’accessoire. Cette ascèse n’est pas dogmatique ; elle puise sa force dans la conviction que la beauté algorithmique naît de la pureté conceptuelle.
+À l’instar des mathématiciens classiques, comme Euclide, Leibniz ou Pascal, Dijkstra voyait dans la simplicité non pas la facilité, mais l’effort d’épure. Écrire moins pour dire mieux suppose un travail de pensée intense : identifier les invariants, isoler le cœur du problème, rejeter l’accessoire. Cette ascèse n’est pas dogmatique ; elle puise sa force dans la conviction que la beauté algorithmique naît de la pureté conceptuelle.
 
 ---
 
@@ -54,10 +54,10 @@ Selon lui, un bon programmeur est d’abord un logicien. La programmation foncti
 
 ### C. Ce que je retiens personnellement
 
-Au quotidien, les idées de Dijkstra guident ma pratique : je cherche des noms de variables qui expriment l’intention, j’écris des tests comme des petites preuves formelles, j’évite les abstractions trop génériques et je privilégie les API minimalistes. Je rejette la complexité flatteuse – ces patterns exotiques censés démontrer mon habileté – et je vise des solutions qui, une fois exposées, apparaissent « évidentes après coup ». Derrière cette immédiateté, il y a toujours un long travail de réflexion et d’épuration.
+Au quotidien, les idées de Dijkstra guident ma pratique : je cherche des noms de variables qui expriment l’intention, j’écris des tests comme de petites preuves formelles, j’évite les abstractions trop génériques et je privilégie les API minimalistes. Je rejette la complexité flatteuse, ces motifs de conception exotiques censés démontrer mon habileté, et je vise des solutions qui, une fois exposées, apparaissent « évidentes après coup ». Derrière cette immédiateté, il y a toujours un long travail de réflexion et d’épuration.
 
 ---
 
-### Conclusion
+## Conclusion
 
 Edsger W. Dijkstra laisse derrière lui un héritage intellectuel et pratique inestimable. Sa philosophie, fondée sur la rigueur, la clarté et la simplicité ascétique, constitue un antidote salutaire face à la prolifération des systèmes informatiques opaques et hypertrophiés (salutations à l'écosystème JS). Plus que jamais, dans un monde gouverné par des algorithmes obscurs, son message nous rappelle que la **beauté algorithmique** réside dans la **pureté conceptuelle**. Et si la simplicité est un idéal exigeant, elle est aussi un engagement éthique : celui de rendre la technologie compréhensible, fiable et, ultimement, digne de la confiance de tous.

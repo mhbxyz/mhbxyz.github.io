@@ -1,6 +1,6 @@
 ---
 translationKey: dictdb
-title: "DictDB : Une base de données en mémoire légère pour Python"
+title: "DictDB : une base de données en mémoire légère pour Python"
 date: 2025-04-19
 tags: ["Python", "Base de Données en Mémoire", "Prototypage", "Outils Développeur"]
 author: "Manoah B."
@@ -16,14 +16,14 @@ Lors du prototypage ou de l'écriture de tests, vous avez besoin d'un stockage a
 
 ## Fonctionnalités
 
-- **Zéro Configuration** : Importez et utilisez. Pas de serveur, pas de setup.
-- **DSL de Requêtes** : Interface fluide avec opérateurs Python (`table.age >= 18`).
-- **Indexation** : Index hash pour des lookups O(1), index triés pour les plages.
-- **Schémas Optionnels** : Validation de types quand nécessaire.
-- **Persistance** : Sauvegarde/chargement en JSON ou Pickle (sync et async).
-- **Sauvegardes Automatiques** : Support des backups périodiques et incrémentaux.
-- **Thread Safety** : Verrous lecteur-écrivain pour les accès concurrents.
-- **Dépendances Minimales** : Seul `sortedcontainers` est requis.
+- **Aucune configuration** : importez la bibliothèque et utilisez-la. Aucun serveur à installer.
+- **DSL de requêtes** : interface fluide avec opérateurs Python (`table.age >= 18`).
+- **Indexation** : index de hachage pour des recherches en O(1), index triés pour les recherches par plage.
+- **Schémas optionnels** : validation des types lorsque c’est nécessaire.
+- **Persistance** : sauvegarde et chargement en JSON ou Pickle, en mode synchrone ou asynchrone.
+- **Sauvegardes automatiques** : prise en charge des sauvegardes périodiques et incrémentales.
+- **Accès concurrents** : verrous lecteur-écrivain pour protéger les opérations simultanées.
+- **Dépendances minimales** : seul `sortedcontainers` est requis.
 
 ## Installation
 
@@ -31,11 +31,11 @@ Lors du prototypage ou de l'écriture de tests, vous avez besoin d'un stockage a
 pip install dctdb
 ```
 
-> Note : Le package PyPI est `dctdb`, mais l'import est `dictdb`.
+> Note : le paquet PyPI s’appelle `dctdb`, mais le module à importer est `dictdb`.
 
 **Prérequis** : Python 3.13+
 
-## Exemple Rapide
+## Exemple rapide
 
 ```python
 from dictdb import DictDB, Condition
@@ -63,7 +63,7 @@ db.save("data.json", file_format="json")
 
 ## Comparaison
 
-| Solution       | Léger | Schéma  | Requêtes Complexes | Persistance |
+| Solution       | Léger | Schéma  | Requêtes complexes | Persistance |
 |----------------|:-----:|:-------:|:------------------:|:-----------:|
 | `dict` natif   | Oui   | Non     | Non                | Non         |
 | TinyDB         | Oui   | Partiel | Partiel            | Oui         |

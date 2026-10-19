@@ -1,6 +1,6 @@
 ---
 translationKey: rationality
-title: '"2 + 2 = 5"? – The Collapse of Rationality Through the Denial of Necessary Truths'
+title: '"2 + 2 = 5"? The Collapse of Rationality Through the Denial of Necessary Truths'
 date: 2025-04-19
 tags: ["Christianity", "Philosophy"]
 author: "Manoah B."
@@ -25,11 +25,11 @@ Such claims strike at the heart of reason itself. If nothing is necessarily true
 
 ## II. Defining Necessary Truth and the Law of Non-Contradiction
 
-A **necessary truth** is a proposition true in all conceivable circumstances. For instance,
+A **necessary truth** is a proposition true in all conceivable circumstances. The following proposition, for instance, holds in every possible world:
 $$
 2 + 2 = 4
 $$
-holds in every possible world; symbolically, we write \\(\Box(2+2=4)\\). The **Law of Non-Contradiction (LNC)** states that no proposition \\(P\\) can be both true and false in the same respect at the same time:
+Symbolically, we write \\(\Box(2+2=4)\\). The **law of non-contradiction (LNC)** states that no proposition \\(P\\) can be both true and false in the same respect at the same time:
 $$
 \neg (P \land \neg P).
 $$
@@ -42,13 +42,13 @@ Aron Ra's two central assertions are:
 1. "Two plus two can equal five depending on higher values of five."
 2. "I cannot point to even one thing being necessarily true."
 
-By invoking an ambiguous "higher mathematics," Ra conflates abstract redefinition with truth relativism. One can define a new operation "\\(\oplus\\)" such that \\(2 \oplus 2 = 5\\), but this does not negate that, under standard arithmetic, \\(2 + 2 = 4\\). Ra's tactic invites confusion: it erodes the distinction between inventing new symbols and denying the underlying necessity of existing truths.
+By invoking an ambiguous "higher mathematics," Ra conflates abstract redefinition with truth relativism. One can define a new operation \\(\oplus\\) such that \\(2 \oplus 2 = 5\\), but this does not negate that, under standard arithmetic, \\(2 + 2 = 4\\). Ra's tactic invites confusion: it erodes the distinction between inventing new symbols and denying the underlying necessity of existing truths.
 
 ## IV. The Jonah Moment: The Self-Refuting Nature of Ra's Position
 
 During the debate, Ra dismisses the biblical Jonah narrative as "absurd." Brancatella immediately asks: "On what basis are you calling it absurd, if you deny all necessary truths?"
 
-Labeling something absurd presupposes standards, whether logical or empirical, by which absurdity is judged. Yet if no proposition is necessarily true, no such standard can coherently exist. Thus, Ra's denunciation of absurdity collapses into incoherence: he relies on the very necessities he claims to reject.
+Labeling something absurd presupposes standards, whether logical or empirical, by which absurdity is judged. Yet if no proposition is necessarily true, such standards lose their claimed foundation. Thus, Ra's denunciation of absurdity collapses into incoherence: he relies on the very necessities he claims to reject.
 
 ## V. Philosophical Implications of Rejecting Necessary Truth
 

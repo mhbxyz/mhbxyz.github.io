@@ -16,14 +16,14 @@ When prototyping or writing tests, you need a data store as agile as your code. 
 
 ## Features
 
-- **Zero Configuration**: Import and use. No server, no setup.
+- **Zero Configuration**: Import the library and use it. No server to set up.
 - **Query DSL**: Fluent interface with Python operators (`table.age >= 18`).
 - **Indexing**: Hash indexes for O(1) lookups, sorted indexes for range queries.
 - **Optional Schemas**: Type validation when you need it.
 - **Persistence**: Save/load via JSON or Pickle (sync and async).
 - **Automatic Backups**: Periodic and incremental backup support.
 - **Thread Safety**: Reader-writer locks for concurrent access.
-- **Minimal Dependencies**: Only `sortedcontainers` required.
+- **Minimal Dependencies**: Only `sortedcontainers` is required.
 
 ## Installation
 
@@ -31,7 +31,7 @@ When prototyping or writing tests, you need a data store as agile as your code. 
 pip install dctdb
 ```
 
-> Note: The PyPI package is `dctdb`, but the import is `dictdb`.
+> Note: The PyPI package is named `dctdb`, but the import is `dictdb`.
 
 **Requirements**: Python 3.13+
 

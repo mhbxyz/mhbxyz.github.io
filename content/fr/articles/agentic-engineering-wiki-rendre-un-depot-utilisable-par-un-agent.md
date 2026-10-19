@@ -33,8 +33,8 @@ Le lanceur peut appeler `uv`, npm ou un conteneur. Ce détail reste dans le dép
 
 Écrire « ne touche pas aux secrets » dans un fichier d'instructions aide à expliquer le projet. Cela ne bloque pas techniquement un accès. Les permissions de l'outil, les identifiants à portée limitée et la protection des branches doivent porter les interdictions importantes. De la même manière, une recherche sémantique peut aider à trouver un concept, mais `rg` reste plus adapté pour retrouver toutes les occurrences exactes d'un nom.
 
-La wiki propose aussi des sous-agents, des compétences réutilisables et des serveurs MCP. Je les vois comme des réponses à des besoins précis, pas comme une liste à installer entièrement. Le [starter kit](https://github.com/mhbxyz/agentic-engineering-wiki/tree/main/starter-kit) donne une base pour les projets Python et backend, à adapter aux commandes et aux risques de chaque dépôt.
+Le wiki propose aussi des sous-agents, des compétences réutilisables et des serveurs MCP. Je les vois comme des réponses à des besoins précis, pas comme une liste à installer entièrement. Le [starter kit](https://github.com/mhbxyz/agentic-engineering-wiki/tree/main/starter-kit) donne une base pour les projets Python et backend, à adapter aux commandes et aux risques de chaque dépôt.
 
 ## Mesurer le travail terminé
 
-Le résultat à viser n'est pas une sortie de terminal plus courte. C'est une tâche correcte, avec les commandes exécutées, les échecs visibles et les changements relus. Si un agent doit deviner le mode d'emploi à chaque intervention, améliorer son modèle ne résout qu'une partie du problème. Un dépôt qui expose clairement son interface devient plus simple à maintenir pour tout le monde.
+Le résultat à viser n'est pas une sortie de terminal plus courte. C'est un travail correct, dont les commandes ont été exécutées, les échecs rendus visibles et les changements relus. Si un agent doit deviner le mode d'emploi à chaque intervention, améliorer son modèle ne résout qu'une partie du problème. Un dépôt qui expose clairement son interface devient plus simple à maintenir pour tout le monde.

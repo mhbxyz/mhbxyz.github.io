@@ -30,6 +30,6 @@ That boundary matters more than the word “agent.” An agent can propose a man
 
 ## What the project does today
 
-The repository provides setup, validation, and rendering tools. Its two current inputs need to be kept distinct: the example JSON manifest is used by the command-line workflow, while Remotion Studio loads props from `src/example-project.ts`. Opening Studio does not automatically load the JSON file.
+The repository provides tools for preparation, validation, and rendering. Its two current inputs need to be kept distinct: the example JSON manifest is used by the command-line workflow, while Remotion Studio loads props from `src/example-project.ts`. Opening Studio does not automatically load the JSON file.
 
 This is a useful limit to know before automating an entire workflow. The [architecture document](https://github.com/mhbxyz/remotion-agent-starter/blob/main/docs/architecture.md) describes the separation precisely. My aim is an edit whose ordinary choices can be inspected, while exceptional visuals remain real code.

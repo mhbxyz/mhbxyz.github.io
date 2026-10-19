@@ -10,7 +10,7 @@ description: "Examining whether atheistic materialism can justify objective mora
 
 ## Introduction
 
-The central problem we address is the following: **can an “ought” be derived from an “is”?** During the Enlightenment, there was an attempt to ground morality solely in reason, without reference to any transcendence. But if one rejects all divine or metaphysical authority, **can a strictly materialist worldview truly justify objective moral norms?** We will first examine the nature and scope of Hume’s “is‑ought problem” (I), then consider its implications for an atheist morality (II). We will then analyze materialist attempts to overcome the obstacle (III), and finally reflect on the possible necessity of a metaphysical foundation to save morality (IV).
+The central question is: **can an “ought” be derived from an “is”?** During the Enlightenment, there was an attempt to ground morality solely in reason, without reference to any transcendence. But if one rejects all divine or metaphysical authority, **can a strictly materialist worldview truly justify objective moral norms?** We will first examine the nature and scope of Hume’s “is‑ought problem” (I), then consider its implications for an atheist morality (II). We will then analyze materialist attempts to overcome the obstacle (III), and finally reflect on the possible necessity of a metaphysical foundation to save morality (IV).
 
 ---
 
@@ -18,8 +18,10 @@ The central problem we address is the following: **can an “ought” be derived
 
 ### A. Presentation of the Problem in the *Treatise of Human Nature*
 
-Hume writes:  
-> “In every system of morality which I have hitherto met with, I have always remarked that the author proceeds for some time in the ordinary way of reasoning… and then suddenly assumes the very conclusion that he ought to do, is, in effect, assumed in the premises.”  
+Hume writes:
+
+> “In every system of morality which I have hitherto met with, I have always remarked that the author proceeds for some time in the ordinary way of reasoning… and then suddenly assumes the very conclusion that he ought to do, is, in effect, assumed in the premises.”
+
 This passage highlights an **illogical leap** from the statement of empirical facts to normative prescription.
 
 ### B. Logical Dimension of the Problem
@@ -38,7 +40,7 @@ without introducing an intermediate normative premise:
 > $$
 > {{< center-italic-text >}} If \(p\) is true, then \(q\) ought to be done, therefore \(q\) ought to be done. {{< /center-italic-text >}}
 
-But this conditional premise already contains an “ought,” making the reasoning circular.
+This conditional premise already contains an obligation; the norm has not been derived from facts alone.
 
 ### C. Philosophical Scope
 
@@ -54,10 +56,11 @@ In a purely physical universe, **there is neither a moral lawgiver nor any intri
 
 ### B. The Temptation to Deduce Norms from Biological or Social Facts
 
-Evolutionary ethics, for example, identifies cooperation or altruism as survival strategies. But **the fact that a behavior is “natural” (e.g., kin-selective selfishness) does not make it a moral duty**.  
-> Is-to-ought error:  
-> “Human beings seek to maximize their fitness → Therefore we must act this way”  
-remains invalid without an ethical axiom.
+Evolutionary ethics, for example, identifies cooperation or altruism as survival strategies. But **the fact that a behavior is “natural” (e.g., kin-selective selfishness) does not make it a moral duty**.
+> Is-to-ought error:
+> “Human beings seek to maximize their fitness → Therefore we must act this way”
+
+This inference remains invalid without an ethical axiom.
 
 ### C. The Emergence of Moral Relativism
 
@@ -81,7 +84,7 @@ Rawls proposes a veil of ignorance, Kant a pure practical reason. But **reason d
 
 ### C. Atheistic Humanist Moralism (Sam Harris, etc.)
 
-According to Harris, science can determine what maximizes well-being. However, **one must already accept that well-being is desirable**, which is a non-scientific “value judgment”:  
+According to Harris, science can determine what maximizes well-being. However, **one must already accept that well-being is desirable**, which is a non-scientific “value judgment”:
 $$
 \text{Science}(\text{facts})\ +\ \bigl[\text{Well-being is a good}\bigr]\ \not\implies\ \text{Ought}
 $$
@@ -107,4 +110,4 @@ For a moral “law” to be **truly binding**, it requires a **higher authority*
 
 ## Conclusion
 
-The “is‑ought problem” is a **structural obstacle** to any ethics claiming to arise solely from a description of the world. By rejecting all transcendence, the materialist view deprives itself of a **foundation for moral obligation**: human rights, justice, and dignity become arbitrary. The **challenge**, then, is to determine whether a minimal form of transcendence: whether theistic, Platonic, or Kantian: can **save morality** in a disenchanted universe.
+The “is‑ought problem” is a **structural obstacle** to any ethics claiming to arise solely from a description of the world. By rejecting all transcendence, the materialist view deprives itself of a **foundation for moral obligation**: human rights, justice, and dignity become arbitrary. The **challenge**, then, is to determine whether a minimal form of transcendence, whether theistic, Platonic, or Kantian, can **save morality** in a disenchanted universe.

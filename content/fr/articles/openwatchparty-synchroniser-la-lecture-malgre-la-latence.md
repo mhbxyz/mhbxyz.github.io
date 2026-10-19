@@ -5,7 +5,7 @@ date: 2026-10-19
 tags: ["Jellyfin", "JavaScript", "Rust", "Synchronisation", "Vidéo"]
 author: "Manoah B."
 draft: false
-description: "Horloges, actions programmées, correction de dérive et buffering HLS : les choix techniques derrière la lecture synchronisée d'OpenWatchParty."
+description: "Horloges, actions programmées, correction de dérive et mise en tampon HLS : les choix techniques derrière la lecture synchronisée d'OpenWatchParty."
 ---
 
 Dans mon [premier article sur OpenWatchParty](/fr/articles/openwatchparty-visionnage-synchronise-pour-jellyfin/), je présentais le plugin Jellyfin et son serveur de session Rust. Restait la question la plus difficile : comment faire jouer la même scène au même moment sur plusieurs machines, alors que leurs horloges, leurs réseaux et leurs lecteurs ne réagissent pas de la même façon ?
@@ -26,7 +26,7 @@ Pour un petit écart, OpenWatchParty ne fait rien. Un lecteur oscille naturellem
 
 Avec un flux HLS transcodé, le lecteur télécharge des segments. Pendant la mise en tampon, un état `paused` ou une position qui recule peut refléter le chargement, pas une décision de la personne devant l'écran. Si le client renvoie ce faux événement au serveur, tous les participants risquent de recevoir une pause injustifiée.
 
-Le client filtre donc les événements pendant certaines opérations de synchronisation et pendant le buffering. Le serveur ignore aussi des mises à jour transitoires juste après une commande et écarte de petits reculs de position. Lorsqu'un participant rejoint la séance, un mécanisme d'attente laisse au média le temps d'être prêt avant de lancer la lecture commune.
+Le client filtre donc les événements pendant certaines opérations de synchronisation et pendant la mise en tampon. Le serveur ignore aussi des mises à jour transitoires juste après une commande et écarte de petits reculs de position. Lorsqu'un participant rejoint la séance, un mécanisme d'attente laisse au média le temps d'être prêt avant de lancer la lecture commune.
 
 ## Une synchronisation qui reste observable
 

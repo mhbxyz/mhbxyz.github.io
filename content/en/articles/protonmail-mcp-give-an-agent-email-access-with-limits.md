@@ -10,13 +10,13 @@ description: "Read access by default, explicitly enabled capabilities, and confi
 
 ## An email is untrusted input
 
-Asking an agent to summarize your messages is useful. But other people wrote those messages. A sender can place instructions in one, telling the agent to send data elsewhere, delete a message, or ignore the original request. Giving the agent unrestricted mailbox access can turn a reading task into an action risk.
+Asking an agent to summarize your messages is useful. But other people wrote those messages. A sender can place instructions in one, telling the agent to send data elsewhere, delete a message, or ignore the original request. Giving the agent unrestricted mailbox access can turn a reading task into a risk of unintended action.
 
 I built [protonmail-mcp](https://github.com/mhbxyz/protonmail-mcp) around this boundary. The server connects an MCP client to Proton Mail through Proton Bridge, which exposes IMAP and SMTP locally. It offers specific tools to the agent instead of allowing arbitrary IMAP or SMTP commands.
 
 ## Start with reading
 
-The default mode is `read`. It can list folders, search and read messages, follow a thread, or produce a digest. IMAP folders are opened read-only; reading through this tool does not even change a message's `\Seen` flag.
+The default mode is `read`. It can list folders, search and read messages, follow a thread, or produce a digest. IMAP folders are opened read-only; reading through these tools does not even change a message's `\Seen` flag.
 
 Other capabilities are enabled explicitly: drafts, organization, sending, then deletion. Tools for a disabled capability are not registered with the MCP client. The rules live on the server, in configuration and policy, rather than in a sentence asking the model to behave.
 

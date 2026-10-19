@@ -1,6 +1,6 @@
 ---
 translationKey: openwatchparty
-title: "OpenWatchParty : Visionnage synchronisé pour Jellyfin"
+title: "OpenWatchParty : visionnage synchronisé pour Jellyfin"
 date: 2026-01-19
 tags: ["Jellyfin", "Rust", "Plugin", "Self-Hosted", "Serveur Multimédia"]
 author: "Manoah B."
@@ -11,19 +11,19 @@ description: "Un plugin Jellyfin pour la lecture synchronisée. Regardez des fil
 
 ## Qu'est-ce qu'OpenWatchParty ?
 
-**OpenWatchParty** est un plugin Jellyfin qui permet la lecture synchronisée de médias sur plusieurs clients. Regardez des films et séries avec vos amis, peu importe où ils se trouvent.
+**OpenWatchParty** est un plugin Jellyfin qui permet la lecture synchronisée de médias sur plusieurs clients. Regardez des films et des séries avec vos amis, où qu’ils se trouvent.
 
 Contrairement au SyncPlay intégré de Jellyfin, OpenWatchParty utilise un serveur de session externe dédié, offrant une synchronisation plus fiable et une meilleure gestion de la latence.
 
 ## Architecture
 
-Le système se compose de trois composants :
+Le système comprend trois composants :
 
 | Composant | Technologie | Rôle |
 |-----------|-------------|------|
-| **Plugin Jellyfin** | C# | Fournit le JavaScript client et l'interface de config |
-| **Serveur de Session** | Rust | Gère les salons, relaie les messages via WebSocket |
-| **Client Web** | JavaScript | Intégré à l'UI Jellyfin, coordonne la lecture |
+| **Plugin Jellyfin** | C# | Fournit le JavaScript client et l’interface de configuration |
+| **Serveur de session** | Rust | Gère les salons et relaie les messages par WebSocket |
+| **Client Web** | JavaScript | Intégré à l’interface de Jellyfin, coordonne la lecture |
 
 ```mermaid
 flowchart LR
@@ -34,17 +34,17 @@ flowchart LR
 
 ## Fonctionnalités
 
-- **Synchronisation Temps Réel** : La lecture reste synchronisée entre tous les participants
-- **Gestion par Salons** : Créez et rejoignez des salons de visionnage
-- **Contrôle par l'Hôte** : Le créateur contrôle la lecture (play, pause, seek)
-- **Monitoring de Latence** : Mesure et affichage du RTT (Round-Trip Time)
-- **Correction de Dérive** : Ajustement automatique de la vitesse pour maintenir la sync
-- **Support HLS** : Fonctionne avec le contenu transcodé via HTTP Live Streaming
-- **Authentification JWT** : Vérification sécurisée de l'identité des utilisateurs
+- **Synchronisation en temps réel** : la lecture reste synchronisée entre tous les participants
+- **Gestion par salons** : créez et rejoignez des salons de visionnage
+- **Contrôle par l’hôte** : le créateur contrôle la lecture (lancement, pause, déplacement)
+- **Suivi de la latence** : mesure et affichage du temps aller-retour (RTT)
+- **Correction de dérive** : ajustement automatique de la vitesse pour maintenir la synchronisation
+- **Prise en charge de HLS** : fonctionne avec les contenus transcodés via HTTP Live Streaming
+- **Authentification JWT** : vérification de l’identité des utilisateurs
 
 ## Installation
 
-### 1. Déployer le Serveur de Session
+### 1. Déployer le serveur de session
 
 ```bash
 docker run -d \
@@ -53,26 +53,28 @@ docker run -d \
   ghcr.io/mhbxyz/openwatchparty-session-server:latest
 ```
 
-### 2. Ajouter le Dépôt de Plugins
+### 2. Ajouter le dépôt de plugins
 
-Dans le Dashboard Jellyfin :
+Dans le tableau de bord de Jellyfin :
+
 1. Aller dans **Dashboard** > **Plugins** > **Repositories**
 2. Ajouter l'URL du dépôt OpenWatchParty
 3. Installer le plugin depuis le Catalogue
 
-### 3. Activer le Script Client
+### 3. Activer le script client
 
-Dans le Dashboard Jellyfin :
+Dans le tableau de bord de Jellyfin :
+
 1. Aller dans **Dashboard** > **Général**
 2. Ajouter le script HTML personnalisé pour activer le client
 
 ## Comment ça fonctionne
 
-1. **Synchronisation d'Horloge** : Les clients synchronisent leurs horloges avec le serveur via EMA (Exponential Moving Average)
-2. **Création de Salon** : L'hôte crée un salon et partage le code
-3. **Les Participants Rejoignent** : Les autres rejoignent avec le code du salon
-4. **Événements de Lecture** : Quand l'hôte joue, pause ou navigue, l'action est diffusée à tous
-5. **Détection de Dérive** : Si un client se désynchronise, la vitesse de lecture s'ajuste pour rattraper
+1. **Synchronisation des horloges** : les clients estiment leur décalage avec le serveur au moyen d’une moyenne mobile exponentielle (EMA)
+2. **Création d’un salon** : l’hôte crée un salon et partage son code
+3. **Arrivée des participants** : les autres rejoignent le salon avec son code
+4. **Événements de lecture** : quand l’hôte lance la lecture, met en pause ou change de position, l’action est diffusée à tous
+5. **Détection de dérive** : si un client se désynchronise, sa vitesse de lecture est ajustée pour rattraper le retard
 
 ## Développement
 

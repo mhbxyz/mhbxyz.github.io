@@ -11,19 +11,19 @@ description: "A Jellyfin plugin for synchronized media playback. Watch movies wi
 
 ## What is OpenWatchParty?
 
-**OpenWatchParty** is a Jellyfin plugin that enables synchronized media playback across multiple clients. Watch movies and shows together with friends, no matter where they are.
+**OpenWatchParty** is a Jellyfin plugin that enables synchronized media playback across multiple clients. Watch movies and shows with friends, wherever they are.
 
 Unlike Jellyfin's built-in SyncPlay, OpenWatchParty uses a dedicated external session server, providing more reliable synchronization and better latency handling.
 
 ## Architecture
 
-The system consists of three components:
+The system has three components:
 
 | Component | Technology | Role |
 |-----------|------------|------|
 | **Jellyfin Plugin** | C# | Delivers client JavaScript and configuration UI |
-| **Session Server** | Rust | Manages rooms, relays sync messages via WebSocket |
-| **Web Client** | JavaScript | Embedded in Jellyfin UI, coordinates playback |
+| **Session Server** | Rust | Manages rooms and relays synchronization messages over WebSocket |
+| **Web Client** | JavaScript | Embedded in the Jellyfin UI; coordinates playback |
 
 ```mermaid
 flowchart LR
@@ -55,14 +55,16 @@ docker run -d \
 
 ### 2. Add the Plugin Repository
 
-In Jellyfin Dashboard:
+In the Jellyfin dashboard:
+
 1. Go to **Dashboard** > **Plugins** > **Repositories**
 2. Add the OpenWatchParty repository URL
 3. Install the plugin from the Catalog
 
 ### 3. Enable the Client Script
 
-In Jellyfin Dashboard:
+In the Jellyfin dashboard:
+
 1. Go to **Dashboard** > **General**
 2. Add the custom HTML script to enable the client
 
@@ -71,7 +73,7 @@ In Jellyfin Dashboard:
 1. **Clock Synchronization**: Clients sync their clocks with the session server using Exponential Moving Average (EMA) smoothing
 2. **Room Creation**: The host creates a room and shares the room code
 3. **Participants Join**: Others join using the room code
-4. **Playback Events**: When the host plays, pauses, or seeks, the action is broadcast to all participants
+4. **Playback Events**: When the host starts, pauses, or seeks playback, the action is broadcast to all participants
 5. **Drift Detection**: If a client drifts out of sync, playback rate is adjusted to catch up
 
 ## Development

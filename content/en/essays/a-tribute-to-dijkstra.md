@@ -8,9 +8,9 @@ draft: false
 description: "Exploring Dijkstra's philosophy of computer science, where rigor and simplicity form a path to intellectual clarity."
 ---
 
-### Introduction
+## Introduction
 
-Edsger W. Dijkstra (1930–2002) is undoubtedly one of the most influential pioneers of modern computer science. Creator of the shortest path algorithm, inventor of semaphores, and opponent of abusive complexity, he shaped our way of thinking about code and program theory. As a software engineer, I find myself deeply resonating with his relentless pursuit of clarity: learning to transform abstract ideas into lucid artifacts, where every line of code bears an irrefutable mathematical justification. My point is simple: Dijkstra was not just an outstanding engineer, but a philosopher of computer science, for whom rigor and simplicity constituted a form of intellectual asceticism. Through this essay, I will examine his career and thought, analyze his vision of simplicity as a demand, and draw practical lessons for the contemporary software engineer.
+Edsger W. Dijkstra (1930–2002) is undoubtedly one of the most influential pioneers of modern computer science. Creator of an algorithm for finding shortest paths, inventor of semaphores, and opponent of unnecessary complexity, he shaped our way of thinking about code and program theory. As a software engineer, I am deeply drawn to his relentless pursuit of clarity: learning to transform abstract ideas into lucid artifacts, where every line of code bears an irrefutable mathematical justification. My point is simple: Dijkstra was not just an outstanding engineer, but a philosopher of computer science, for whom rigor and simplicity constituted a form of intellectual asceticism. Through this essay, I will examine his career and thought, analyze his vision of simplicity as a demand, and draw practical lessons for the contemporary software engineer.
 
 ---
 
@@ -18,7 +18,7 @@ Edsger W. Dijkstra (1930–2002) is undoubtedly one of the most influential pion
 
 ### A. An Extraordinary Scientist
 
-Born in the Netherlands, Dijkstra earned his PhD in applied mathematics from Eindhoven University before joining Philips laboratories. Very quickly, his shortest path algorithm revolutionized not only graph theory but also found concrete applications in networks, logistics, and planning. At the same time, he formalized the concept of the semaphore, a cornerstone of concurrent programming, and contributed to the definition of ALGOL, one of the first structured languages. His influence then extended from Europe to America, where he served at the University of Austin (Texas), training a generation of researchers to think of computer science as a rigorous and disciplined science.
+Born in the Netherlands, Dijkstra earned his PhD in applied mathematics from Eindhoven University before joining Philips laboratories. Very quickly, his shortest path algorithm revolutionized not only graph theory but also found concrete applications in networks, logistics, and planning. At the same time, he formalized the concept of the semaphore, a cornerstone of concurrent programming, and contributed to the definition of ALGOL, one of the first structured languages. His influence then extended from Europe to America, where he worked in Austin, Texas, training a generation of researchers to think of computer science as a rigorous and disciplined science.
 
 ### B. A Critical and Unconventional Thinker
 
@@ -30,7 +30,7 @@ Far from the limelight, Dijkstra distrusted trends: he did not use email and den
 
 ### A. The Maxim: "If Your Proof Exceeds Five Lines, You Made It Too Complicated"
 
-Dijkstra often criticized lengthy or convoluted proofs, for him, clarity was a moral imperative in scientific thought. This injunction is not a stylistic whim, but the expression of a mathematical ideal where each step must be absolutely necessary and immediately understandable. In his view, the clarity of the argument is inseparable from its truth: the more concise a proof, the more it reveals the fundamental structure of the problem.
+Dijkstra often criticized lengthy or convoluted proofs; for him, clarity was a moral imperative in scientific thought. This injunction is not a stylistic whim, but the expression of a mathematical ideal where each step must be absolutely necessary and immediately understandable. In his view, the clarity of the argument is inseparable from its truth: the more concise a proof, the more it reveals the fundamental structure of the problem.
 
 ### B. Against Accidental Complexity
 
@@ -38,7 +38,7 @@ He clearly distinguished essential complexity, inherent to the problem to be sol
 
 ### C. Simplicity and Truth: An Intellectual Asceticism
 
-Like classical mathematicians – Euclid, Leibniz, or Pascal – Dijkstra saw simplicity not as ease, but as the effort of refinement. Writing less to say more requires intense intellectual labor: identifying invariants, isolating the core of the problem, rejecting the superfluous. This asceticism is not dogmatic; its strength lies in the conviction that algorithmic beauty arises from conceptual purity.
+Like classical mathematicians such as Euclid, Leibniz, and Pascal, Dijkstra saw simplicity not as ease, but as the effort of refinement. Writing less to say more requires intense intellectual labor: identifying invariants, isolating the core of the problem, rejecting the superfluous. This asceticism is not dogmatic; its strength lies in the conviction that algorithmic beauty arises from conceptual purity.
 
 ---
 
@@ -54,10 +54,10 @@ According to him, a good programmer is first and foremost a logician. Functional
 
 ### C. What I Personally Take Away
 
-On a daily basis, Dijkstra's ideas guide my practice: I seek variable names that express intention, I write tests as small formal proofs, I avoid overly generic abstractions and favor minimalist APIs. I reject flattering complexity – those exotic patterns meant to showcase my skill – and aim for solutions that, once exposed, seem "obvious in hindsight." Behind this immediacy, there is always a long work of reflection and refinement.
+On a daily basis, Dijkstra's ideas guide my practice: I seek variable names that express intention, I write tests as small formal proofs, I avoid overly generic abstractions and favor minimalist APIs. I reject showy complexity, including exotic patterns meant to showcase my skill, and aim for solutions that, once exposed, seem "obvious in hindsight." Behind this immediacy, there is always considerable work of reflection and refinement.
 
 ---
 
-### Conclusion
+## Conclusion
 
-Edsger W. Dijkstra leaves behind an invaluable intellectual and practical legacy. His philosophy, founded on rigor, clarity, and ascetic simplicity, constitutes a salutary antidote to the proliferation of opaque and hypertrophied computer systems (greetings to the JS ecosystem). More than ever, in a world governed by obscure algorithms, his message reminds us that **algorithmic beauty** lies in **conceptual purity**. And if simplicity is a demanding ideal, it is also an ethical commitment: to make technology understandable, reliable, and ultimately, worthy of everyone's trust.
+Edsger W. Dijkstra leaves behind an invaluable intellectual and practical legacy. His philosophy, founded on rigor, clarity, and ascetic simplicity, constitutes a salutary antidote to the proliferation of opaque and bloated computer systems (greetings to the JS ecosystem). More than ever, in a world governed by obscure algorithms, his message reminds us that **algorithmic beauty** lies in **conceptual purity**. And if simplicity is a demanding ideal, it is also an ethical commitment: to make technology understandable, reliable, and ultimately worthy of everyone's trust.

@@ -10,7 +10,7 @@ description: "Lecture par défaut, capacités activées explicitement et confirm
 
 ## Un e-mail est une entrée non fiable
 
-Demander à un agent de résumer ses messages est pratique. Mais le contenu de ces messages a été écrit par d'autres personnes. Un expéditeur peut y glisser des instructions destinées à l'agent : envoyer des données ailleurs, effacer un message ou ignorer la demande initiale. Donner à l'agent un accès complet à la boîte transforme alors une simple lecture en risque d'action.
+Demander à un agent de résumer mes messages est pratique. Mais le contenu de ces messages a été écrit par d'autres personnes. Un expéditeur peut y glisser des instructions destinées à l'agent : envoyer des données ailleurs, effacer un message ou ignorer la demande initiale. Donner à l'agent un accès complet à la boîte transforme alors une simple lecture en risque d'action.
 
 J'ai construit [protonmail-mcp](https://github.com/mhbxyz/protonmail-mcp) autour de cette frontière. Le serveur relie un client MCP à Proton Mail au moyen de Proton Bridge, qui expose localement IMAP et SMTP. Il présente des outils précis à l'agent, au lieu de lui laisser envoyer des commandes IMAP ou SMTP arbitraires.
 

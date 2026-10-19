@@ -36,9 +36,9 @@ next_year = parse_age("42").map(lambda age: age + 1)
 
 ## Absence et erreur ne racontent pas la même chose
 
-Une donnée facultative peut manquer sans que la requête soit invalide. `Option` représente ce cas. Un identifiant mal formé, une permission refusée ou une écriture en base échouée demandent une explication : c'est le rôle de `Result`. Cette distinction évite de donner plusieurs sens à `None`.
+Une donnée facultative peut manquer sans que la requête soit invalide. `Option` représente ce cas. Un identifiant mal formé, une permission refusée ou un échec d’écriture en base demandent une explication : c'est le rôle de `Result`. Cette distinction évite de donner plusieurs sens à `None`.
 
-La validation a encore un autre besoin. Lorsque plusieurs champs sont faux, il est plus agréable de recevoir **toutes** les erreurs en une seule réponse. `Validation` et `validate_all` servent à les accumuler, alors qu'une chaîne de `Result` s'arrête au premier échec. Une fois les données validées, on peut poursuivre le traitement avec `Result`.
+La validation a encore un autre besoin. Lorsque plusieurs champs sont invalides, il est plus agréable de recevoir **toutes** les erreurs en une seule réponse. `Validation` et `validate_all` servent à les accumuler, alors qu'une chaîne de `Result` s'arrête au premier échec. Une fois les données validées, on peut poursuivre le traitement avec `Result`.
 
 ## Garder les effets de bord à leur place
 
